@@ -23,8 +23,8 @@ class My_DataSet(object):
   for general migration instructions.
   """
   dataset_num=0
-  @deprecated(None, 'Please use alternatives such as official/mnist/dataset.py'
-              ' from tensorflow/models.')
+  # @deprecated(None, 'Please use alternatives such as official/mnist/dataset.py'
+  #             ' from tensorflow/models.')
   def __init__(self,
                images, #训练数据array （num，input）
                labels,#标记array（num,output）,

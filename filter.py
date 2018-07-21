@@ -4,37 +4,60 @@ from pylab import figure, plot, grid, show
 import  librosa
 import matplotlib.pyplot as plt
 import librosa.display
+import librosa.output
 import numpy as np
+import os
 
-def filter_wav_test():
-    X, sample_rate = librosa.load('dataset/artifact__201012172012.wav')
+#you should install ffmpeg packet
+
+filt_dir='wav/'
+filt_store_dir='wav1/'
+Cutoff_hz = 1000.0
+Numtaps = 100
+
+def filt_wav_store(dir,filename,filt_store_dirs):
+    X, sample_rate = librosa.load(dir+filename)
+    nyq_rate = sample_rate / 2.
+    fir_coeff = firwin(Numtaps, Cutoff_hz / nyq_rate)
+    filtered_X = lfilter(fir_coeff, 1.0, X)
+    librosa.output.write_wav(filt_store_dir+filename, filtered_X, sample_rate, norm=True)
+
+def filt_dir_all_wav(dir,filt_store_dir):
+    if not os.path.exists(filt_store_dir):
+        os.mkdir(filt_store_dir)
+    for file in os.listdir(dir):
+        filt_wav_store(dir,file,filt_store_dir)
+
+
+
+
+
+
+
+def filter_wav_test(filename):
+    X, sample_rate = librosa.load(filename)
     nsamples=29
     nyq_rate = sample_rate / 2.
     cutoff_hz = 1000.0
     # Length of the filter (number of coefficients, i.e. the filter order + 1)
-    numtaps = 1400
+    numtaps = 100
     # Use firwin to create a lowpass FIR filter
     fir_coeff = firwin(numtaps, cutoff_hz / nyq_rate)
 
     w, h = freqz(fir_coeff)
     plt.title('Digital filter frequency response')
     plt.plot(w*nyq_rate/pi, 20 * np.log10(abs(h)), 'b')
-
     plt.ylabel('Amplitude [dB]', color='b')
     # plt.xlabel('Frequency [rad/sample]')
     plt.xlabel('Frequency [HZ]')
-
     plt.grid()
     plt.axis('tight')
     plt.xlim(0, 2000)
     plt.show()
 
-
-
-
-
     # Use lfilter to filter the signal with the FIR filter
     filtered_X = lfilter(fir_coeff, 1.0, X)
+    librosa.output.write_wav(filename.replace('.wav','filt.wav'),filtered_X,sample_rate,norm=True)
 
     D = librosa.stft(X)
     D1 = librosa.stft(filtered_X)
@@ -128,4 +151,5 @@ def print_values(label, values):
     print("%-30s = {%s}" % (var, ', '.join(["%+.10f" % x for x in values])))
 
 if __name__=='__main__':
-    filter_wav_test()
+    # filter_wav_test('wav/normal__201105011626.wav')
+    filt_dir_all_wav(filt_dir,filt_store_dir)

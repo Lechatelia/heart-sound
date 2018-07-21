@@ -10,14 +10,19 @@ import librosa.display
 import os
 import xlwt
 import csv
+from scipy.signal import lfilter, firwin,freqz
 
 txt_name_for_chongfu='./chongfu1.txt'
 
-
+is_filter=True
+Cutoff_hz = 1000.0
+Numtaps = 100
 
 def extract_feature(file_name,outfile=None):
     min_data =44000
     X, sample_rate = librosa.load(file_name)
+
+
     # X, sample_rate1 = librosa.load(file_name, offset=8.1)
     if len(X) >= min_data:
         offset = np.random.randint(0, high=len(X) - min_data)
@@ -25,6 +30,11 @@ def extract_feature(file_name,outfile=None):
         if(outfile!=None):
             # print("!!!{file_name}".format(file_name=file_name))
             outfile.write(file_name+'\n')
+     #是否滤波
+    if is_filter:
+        nyq_rate = sample_rate / 2.
+        fir_coeff = firwin(Numtaps, Cutoff_hz / nyq_rate)
+        X = lfilter(fir_coeff, 1.0, X)
     # else:
     #     pad = (int((min_data - len(X)) / 2), min_data - len(X) - int((min_data - len(X)) / 2))
     #     X = np.pad(X, pad_width=pad, mode='constant', constant_values=0)
