@@ -1,12 +1,12 @@
 import  my_inference
 import audio_processing
 import tensorflow as tf
-import mnist_train
+import my_train
 import numpy as np
 import os
 
-test_ckpt_path="model0716/mnist_model-84001.meta"
-ckpt_path="model0716/mnist_model-84001"
+test_ckpt_path="model0726/hs_model-95501.meta"
+ckpt_path="model0726/hs_model-95501"
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 
@@ -67,8 +67,12 @@ def predict_wav_list(sess,wav_list):
         print("hear sound：："+wav+"\tprob：\t"+str(pre_pro))
         print("prindictions:\t" + predictions_map[pre_pro.index(max(pre_pro))])
 
-def predict_wav_indir(sess,dir):
-    out_file = open('pre_pro1.txt', 'w')
+def predict_wav_indir(sess,dir,first=False):
+    if first:
+        mode='w'
+    else:
+        mode='a+'
+    out_file = open('pre_pro1.txt',mode)
     for file in os.listdir(dir):
         pre_pro = predict_wav(sess, dir+file).tolist()
         if(max(pre_pro)<0.35):
@@ -84,8 +88,11 @@ if __name__=='__main__':
         saver.restore(sess, ckpt_path)
         print('Model restored from: '+test_ckpt_path)
 
-        #具体某一病例
-        predict_wav_indir(sess,'dataset\\')
+        #预测文件夹
+        dir = ['murmur/', 'artifact/', 'normal/', 'extrahls/', 'extrastole/']
+        for i in range(len(dir)):
+            predict_wav_indir(sess,dir[i],first=(i==1))
+        # 具体某一病例#具体某一病例
         # predict_wav_list(sess,
         #                  [
         #                      "wav/normal__201105011626.wav",

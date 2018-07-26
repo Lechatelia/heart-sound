@@ -8,6 +8,11 @@ import librosa.output
 import numpy as np
 import os
 
+# import pywt
+# import numpy as np
+# import seaborn
+# from statsmodels.robust import mad
+
 #you should install ffmpeg packet
 
 filt_dir='wav/'
@@ -149,6 +154,27 @@ def filter_test():
 def print_values(label, values):
     var = "float32_t %s[%d]" % (label, len(values))
     print("%-30s = {%s}" % (var, ', '.join(["%+.10f" % x for x in values])))
+
+
+
+#
+# def waveletSmooth(x, wavelet="db4", level=1, title=None):
+#     # calculate the wavelet coefficients
+#     coeff = pywt.wavedec(x, wavelet, mode="per")
+#     # calculate a threshold
+#     sigma = mad(coeff[-level])
+#     # changing this threshold also changes the behavior,
+#     # but I have not played with this very much
+#     uthresh = sigma * np.sqrt(2 * np.log(len(x)))
+#     coeff[1:] = (pywt.threshold(i, value=uthresh, mode="soft") for i in coeff[1:])
+#     # reconstruct the signal using the thresholded coefficients
+#     y = pywt.waverec(coeff, wavelet, mode="per")
+#     f, ax = plt.subplots()
+#     plot(x, color="b", alpha=0.5)
+#     plot(y, color="b")
+#     if title:
+#         ax.set_title(title)
+#     ax.set_xlim((0, len(y)))
 
 if __name__=='__main__':
     # filter_wav_test('wav/normal__201105011626.wav')

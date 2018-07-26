@@ -14,15 +14,15 @@ wav_dir='dataset/'
 
 
 BATCH_SIZE = 400
-My_keep_prob=0.6
+My_keep_prob=0.8
 LEARNING_RATE_BASE = 0.2
 LEARNING_RATE_DECAY = 0.99
-REGULARIZATION_RATE = 0.000001
+REGULARIZATION_RATE = 0.0001
 #REGULARIZATION_RATE = 0.0001
-TRAINING_STEPS = 100000
+TRAINING_STEPS = 120000
 MOVING_AVERAGE_DECAY = 0.9999
-MODEL_SAVE_PATH="model0716/"
-MODEL_NAME="mnist_model"
+MODEL_SAVE_PATH="model0726/"
+MODEL_NAME="hs_model"
 
 
 
@@ -185,6 +185,7 @@ def train(mnist, valdata, vallabel, testdata, testlabel):
     tf.add_to_collection("predicts",predictions)
     correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))  #用于精确度
+    # tf.summary.scalar('accuracy',accuracy)
     global_step = tf.Variable(0, trainable=False)
 
 
@@ -199,7 +200,7 @@ def train(mnist, valdata, vallabel, testdata, testlabel):
     learning_rate = tf.train.exponential_decay(
         LEARNING_RATE_BASE,
         global_step,
-        int(mnist.num_examples), LEARNING_RATE_DECAY,
+        1000, LEARNING_RATE_DECAY,
         staircase=True)
     train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
 
@@ -220,7 +221,7 @@ def train(mnist, valdata, vallabel, testdata, testlabel):
 
         for i in range(TRAINING_STEPS):
             xs, ys = mnist.next_batch(BATCH_SIZE)
-            _, loss_value, step,acc_train= sess.run([train_op, loss, global_step,accuracy], feed_dict={x: xs, y_: ys,keep_prob:My_keep_prob})
+            _, loss_value, step,acc_train,lr= sess.run([train_op, loss, global_step,accuracy,learning_rate], feed_dict={x: xs, y_: ys,keep_prob:My_keep_prob})
             if i % 500 == 0:
                 # acc_1 = sess.run([accuracy], feed_dict={x: valdata, y_: vallabel,keep_prob:1.0})  #二者不参与反向传播
                 acc_2 = sess.run([accuracy], feed_dict={x: testdata, y_: testlabel,keep_prob:1.0})
@@ -228,7 +229,7 @@ def train(mnist, valdata, vallabel, testdata, testlabel):
                     max_test_accuracy=float(acc_2[0])
                     max_acc_index=i
                     saver.save(sess, os.path.join(MODEL_SAVE_PATH, MODEL_NAME), global_step=global_step)
-                print("After %d step, train_loss  %g, train_acc is %g, test_acc is %g ,max_acc is %g,index: %d" % (step, loss_value, float(acc_train),float(acc_2[0]),max_test_accuracy,max_acc_index))
+                print("After %d step,lr   %g, train_loss  %g, train_acc is %g, test_acc is %g ,max_acc is %g,index: %d" % (step,lr, loss_value, float(acc_train),float(acc_2[0]),max_test_accuracy,max_acc_index))
             #if i % 1000 == 0:
                 #saver.save(sess, os.path.join(MODEL_SAVE_PATH, MODEL_NAME), global_step=global_step)
 

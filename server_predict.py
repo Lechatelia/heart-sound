@@ -5,9 +5,10 @@ import mnist_train
 import numpy as np
 import socket
 import time
+import my_pridict
 
-test_ckpt_path="MNIST_model/mnist_model-1001.meta"
-ckpt_path="MNIST_model/mnist_model-1001"
+test_ckpt_path="model0726/hs_model-95501.meta"
+ckpt_path="model0726/hs_model-95501"
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 predict_wav_dir=[]
@@ -41,27 +42,27 @@ def pridict(sess,features):
     return pre
 
 def predict_wav(sess,filename):
-    features=audio_processing.extract_feature(filename)
-    features=np.concatenate(features,0)
-    features = guiyi(features).astype('float32')
+    features = audio_processing.extract_feature(filename)
+    features = np.concatenate(features, 0)
+    # features = guiyi(features).astype('float32')
     features = np.reshape(features, [-1, 577])
-    pro = pridict(sess,features)
+    pro = pridict(sess, features)
     return pro
 
-def guiyi(linedata):
-    linedata[0:40] = [x - min(linedata[0:40]) for x in linedata[0:40]]
-    linedata[0:40] = [x / (max(linedata[0:40]) - min(linedata[0:40])) for x in linedata[0:40]]
-    linedata[40:52] = [x - min(linedata[40:52]) for x in linedata[40:52]]
-    linedata[40:52] = [x / (max(linedata[40:52]) - min(linedata[40:52])) for x in linedata[40:52]]
-    linedata[52:180] = [x - min(linedata[52:180]) for x in linedata[52:180]]
-    linedata[52:180] = [x / (max(linedata[52:180]) - min(linedata[52:180])) for x in linedata[52:180]]
-    linedata[180:187] = [x - min(linedata[180:187]) for x in linedata[180:187]]
-    linedata[180:187] = [x / (max(linedata[180:187]) - min(linedata[180:187])) for x in linedata[180:187]]
-    linedata[187:193] = [x - min(linedata[187:193]) for x in linedata[187:193]]
-    linedata[187:193] = [x / (max(linedata[187:193]) - min(linedata[187:193])) for x in linedata[187:193]]
-    linedata[193:] = [x - min(linedata[193:]) for x in linedata[193:]]
-    linedata[193:] = [x / (max(linedata[193:]) - min(linedata[193:])) for x in linedata[193:]]
-    return linedata
+# def guiyi(linedata):
+#     linedata[0:40] = [x - min(linedata[0:40]) for x in linedata[0:40]]
+#     linedata[0:40] = [x / (max(linedata[0:40]) - min(linedata[0:40])) for x in linedata[0:40]]
+#     linedata[40:52] = [x - min(linedata[40:52]) for x in linedata[40:52]]
+#     linedata[40:52] = [x / (max(linedata[40:52]) - min(linedata[40:52])) for x in linedata[40:52]]
+#     linedata[52:180] = [x - min(linedata[52:180]) for x in linedata[52:180]]
+#     linedata[52:180] = [x / (max(linedata[52:180]) - min(linedata[52:180])) for x in linedata[52:180]]
+#     linedata[180:187] = [x - min(linedata[180:187]) for x in linedata[180:187]]
+#     linedata[180:187] = [x / (max(linedata[180:187]) - min(linedata[180:187])) for x in linedata[180:187]]
+#     linedata[187:193] = [x - min(linedata[187:193]) for x in linedata[187:193]]
+#     linedata[187:193] = [x / (max(linedata[187:193]) - min(linedata[187:193])) for x in linedata[187:193]]
+#     linedata[193:] = [x - min(linedata[193:]) for x in linedata[193:]]
+#     linedata[193:] = [x / (max(linedata[193:]) - min(linedata[193:])) for x in linedata[193:]]
+#     return linedata
 
 def predict_wav_list(sess,wav_list):
     end=[]

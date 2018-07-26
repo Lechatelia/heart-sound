@@ -11,7 +11,7 @@ NODE4=20
 NODE5=20
 NODE6=80
 LAYER2_NODE = 100
-LAYER3_NODE = 100
+LAYER3_NODE = 5
 
 def get_weight_variable(shape, regularizer):
     weights = tf.get_variable("weights", shape, initializer=tf.truncated_normal_initializer(stddev=0.1))
@@ -94,15 +94,15 @@ def inference(input_tensor, regularizer,keep_prob=1):
 
     with tf.variable_scope('layer3'):
 
-        weights = get_weight_variable([LAYER2_NODE, OUTPUT_NODE], regularizer)
-        biases = tf.get_variable("biases", [OUTPUT_NODE], initializer=tf.constant_initializer(0.0))
+        weights = get_weight_variable([LAYER2_NODE, LAYER3_NODE], regularizer)
+        biases = tf.get_variable("biases", [LAYER3_NODE], initializer=tf.constant_initializer(0.0))
         layer3 = tf.nn.relu(tf.matmul(layer3_1, weights) + biases)
-        # layer3 = tf.nn.dropout(layer3, keep_prob)
+        layer3 = tf.nn.dropout(layer3, keep_prob)
 
-    # with tf.variable_scope('layer4'):
-    #     weights = get_weight_variable([LAYER3_NODE, OUTPUT_NODE], regularizer)
-    #     biases = tf.get_variable("biases", [OUTPUT_NODE], initializer=tf.constant_initializer(1.0))
-    #     layer4 = tf.matmul(layer3, weights) + biases
-    #     layer4 = tf.nn.dropout(layer4, keep_prob)
+    with tf.variable_scope('layer4'):
+        weights = get_weight_variable([LAYER3_NODE, OUTPUT_NODE], regularizer)
+        biases = tf.get_variable("biases", [OUTPUT_NODE], initializer=tf.constant_initializer(1.0))
+        layer4 = tf.matmul(layer3, weights) + biases
+        layer4 = tf.nn.dropout(layer4, keep_prob)
 
-    return layer3
+    return layer4

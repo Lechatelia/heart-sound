@@ -16,16 +16,20 @@ txt_name_for_chongfu='./chongfu1.txt'
 
 is_filter=True
 Cutoff_hz = 1000.0
-Numtaps = 100
+Numtaps = 10
 
 def extract_feature(file_name,outfile=None):
     min_data =44000
+# try:
+#     print(file_name)
     X, sample_rate = librosa.load(file_name)
+# except :
 
+# else:
 
     # X, sample_rate1 = librosa.load(file_name, offset=8.1)
     if len(X) >= min_data:
-        offset = np.random.randint(0, high=len(X) - min_data)
+        offset = int(np.random.randint(0, high=len(X) - min_data)/2)
         X = X[offset:offset + min_data]
         if(outfile!=None):
             # print("!!!{file_name}".format(file_name=file_name))
@@ -221,12 +225,15 @@ def pre_precessing():
 
 
 
-def write_features_into_excel(dir,write_txt=True):
+def write_features_into_excel(dir,write_txt=True,first=False):
     write_data=[]
     out_file = open(txt_name_for_chongfu, 'a+')
     # out_file.close()
-    with open('write.csv', 'w', newline='') as csv_file:
-
+    if first:
+        mode='w'
+    else :
+        mode='a+'
+    with open('write.csv', mode, newline='') as csv_file:
     # with open('write.csv', 'w') as csv_file:
         csv_writer = csv.writer(csv_file)
 
@@ -268,7 +275,14 @@ def write_features_intxt_into_excel(dir):
 
 if __name__ == '__main__':
     # extract_feature('dataset/artifact__201012172012.wav')
+    dir=['extrastole/','murmur/','artifact/','normal/','extrahls/']
+    num=[6,2,8,1,16]
+    # num=[1,1,1,1,1]
+    for i in range(len(dir)):
+        for j in range(num[i]):
+            print("i: {inum},\tj:{jnum}".format(inum=i,jnum=j))
+            write_features_into_excel(dir[i],write_txt=False,first=((i+j)==0))
     # write_features_into_excel('dataset/')
-    write_features_intxt_into_excel(txt_name_for_chongfu)
+    # write_features_intxt_into_excel(txt_name_for_chongfu)
 
 
