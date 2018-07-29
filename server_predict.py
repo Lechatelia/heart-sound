@@ -6,6 +6,7 @@ import numpy as np
 import socket
 import time
 import my_pridict
+from sever import Server
 
 test_ckpt_path="model0726/hs_model-95501.meta"
 ckpt_path="model0726/hs_model-95501"
@@ -16,6 +17,95 @@ predict_wav_dir=[]
 # saver = tf.train.import_meta_graph('MNIST_model/mnist_model-240001.meta')
 # saver.restore(sess, tf.train.latest_checkpoint('MNIST_model/'))
 
+import socket
+import time
+import threading
+import datetime
+# import server_predict
+#
+# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
+#
+# # s.bind(('192.168.1.103', 6666))  # 绑定本机IP和任意端口(>1024)
+# s.bind(('127.0.0.1', 6666))  # 绑定本机IP和任意端口(>1024)
+#
+# s.listen(1)  # 监听，等待连接的最大数目为1
+#
+# print('Server is running...')
+
+
+class Server():
+    def __init__(self,ip,port,sess):
+        # self.wav_length=32812
+        self.wav_length=10
+        self.sess=sess
+        self.s = socket.socket(socket.AF_INET,
+                          socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
+
+        # s.bind(('192.168.1.103', 6666))  # 绑定本机IP和任意端口(>1024)
+        self.s.bind((ip, port))  # 绑定本机IP和任意端口(>1024)
+        self.s.listen(1)  # 监听，等待连接的最大数目为1
+        print('Server is running...')
+        self.sock, self.addr = self.s.accept()  # 接收一个新连接
+        print('Accept new connection from %s:%s.' % self.addr)  # 接受新的连接请求
+        # TCP(sock, addr)  # 处理连接
+
+    def receive_wav(self,wav_name):
+        # Length=32000
+        Length = self.wav_length
+        length = 0
+        with open(wav_name, 'wb') as f:
+            while (length < Length):
+                data = self.sock.recv(5000)  # 接受其数据
+                if data:
+                    # if not data or data.decode() == 'quit':  # 如果数据为空或者'quit'，则退出
+                    #     break
+                    print("receiced:\t")
+                    print(len(data))
+                    f.write(data)
+                    length += len(data)
+                    if length == Length:
+                        f.close()
+                        break
+                    # print(data.decode('utf-8'))
+                    # sock.send(data.decode('utf-8').upper().encode())  # 发送变成大写后的数据,需先解码,再按utf-8编码,  encode()其实就是encode('utf-8')
+                else:
+                    self.sock.close()  # 关闭连接
+                    print('Connection from %s:%s closed.' % self.addr)
+                    break
+            print('transmit ok')
+
+    def close(self):
+        self.s.close()
+
+    def event_judge(self,pridict=False):
+        while(1):
+            try:
+                data=self.sock.recv(1024)
+            except OSError:
+                print('Connection Error from socket %s:%s .' % self.addr)
+                self.sock.close()
+                break
+            else:
+                if not data:
+                    print('Connection from %s:%s closed.' % self.addr)
+                    self.sock.close()
+                    break
+                elif data.decode('utf-8')=='wav_start':
+                    self.sock.send('wav_start'.encode())
+                    time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
+                    my_server.receive_wav('{name}.wav'.format(name=time))
+                    if pridict:
+                        pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
+                        # pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
+                        self.sock.send(predictions_map[pre_pro.index(max(pre_pro))].encode())
+                        print(predictions_map[pre_pro.index(max(pre_pro))])
+                    print(time)
+                elif data.decode('utf-8')=='acquire_info':
+                    pass
+                elif data.decode('utf-8')=='ID_update':
+                    pass
+                else:
+                    print('unknown messsge:\t{mess}'.format(mess=data.decode('utf-8')))
 
 
 def pridict(sess,features):
@@ -47,7 +137,7 @@ def predict_wav(sess,filename):
     # features = guiyi(features).astype('float32')
     features = np.reshape(features, [-1, 577])
     pro = pridict(sess, features)
-    return pro
+    return pro.tolist()
 
 # def guiyi(linedata):
 #     linedata[0:40] = [x - min(linedata[0:40]) for x in linedata[0:40]]
@@ -103,15 +193,21 @@ if __name__=='__main__':
         print('Model restored from: '+test_ckpt_path)
 
 
-        s = socket.socket(socket.AF_INET,
-                          socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
-        s.bind(('127.0.0.1', 6666))  # 绑定本机IP和任意端口(>1024)
-        s.listen(1)  # 监听，等待连接的最大数目为1
-        print('Server is running...')
-
+        # s = socket.socket(socket.AF_INET,
+        #                   socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
+        # s.bind(('127.0.0.1', 6666))  # 绑定本机IP和任意端口(>1024)
+        # s.listen(1)  # 监听，等待连接的最大数目为1
+        # print('Server is running...')
+        #
+        # while True:
+        #     sock, addr = s.accept()  # 接收一个新连接
+        #     TCP(sock, addr,sess)  # 处理连接
         while True:
-            sock, addr = s.accept()  # 接收一个新连接
-            TCP(sock, addr,sess)  # 处理连接
+            # my_server = Server('192.168.1.102', 6666,sess)
+            my_server = Server('localhost', 6666,sess)
+            my_server.event_judge(pridict=True)
+            print('you can now disconnect connection ')
+            my_server.close()
 
 
 
