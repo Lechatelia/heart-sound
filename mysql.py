@@ -146,6 +146,50 @@ class Mysql():
            # 发生错误时回滚
            self.db.rollback()
 
+    def Return_Info_by_ID(self,ID):
+        # SQL 删除语句
+        cursor = self.db.cursor()
+        sql = "SELECT *  FROM USE_INFMATION WHERE USE_ID = '%s'" % (ID)
+        try:
+           # 执行SQL语句
+           cursor.execute(sql)
+
+           results = cursor.fetchall()
+
+           return  results
+           # 提交修改
+           # self.db.commit()
+        except:
+           # 发生错误时回滚
+           self.db.rollback()
+
+    def Return_all_ID_Name(self):
+        # 使用cursor()方法获取操作游标
+        cursor = self.db.cursor()
+
+        # SQL 查询语句
+        sql = "SELECT USE_ID,USE_NAME FROM USE_INFMATION "
+        try:
+            # 执行SQL语句s
+            cursor.execute(sql)
+            # 获取所有记录列表
+            results = cursor.fetchall()
+            return results
+        except:
+            print("Error: unable to fetch data")
+
+    def ID_Name_list_to_str(self,list_idname):
+        str_list=[]
+        for idname in list_idname:
+            str_list.append('{0[0]:*<10}{0[1]:*<20}'.format(idname))
+        return str_list
+
+
+    def Info2str(self,infolist):
+        if len(infolist)==5:
+            return '{0[0]:*<10}{0[1]:*<20}{0[2]}{0[3]:*<1}{0[4]:*<11}'.format(infolist)
+        else:
+            print('info format error')
     def Delete_Diagnosis_by_ID(self,ID):
         # SQL 删除语句
         cursor = self.db.cursor()
@@ -201,6 +245,17 @@ def Add_Diagnosis_to_SQL(ID=1234567890,Result='normal',Possi=0.512345,wav_dir='.
     mysql.Insert_Diagnosis([ID,Result,Possi,wav_dir])
     mysql.close_sql()
 
+def Acquire_Info_by_ID(id):
+    mysql = Mysql()
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
+    info = mysql.Return_Info_by_ID(id)[0]
+    return mysql.Info2str(info)
+
+def Update_all_name_id_by_str():
+    mysql = Mysql()
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
+    return mysql.ID_Name_list_to_str(mysql.Return_all_ID_Name())
+
 def SQL_test():
     time =str(datetime.datetime.now()).split('.')[0]
     mysql=Mysql()
@@ -208,10 +263,16 @@ def SQL_test():
 
 
     mysql.Delete_Info_by_ID('1234567890')
-    mysql.Insert_User_Info([1234567890,'boy1', '1997-03-27' ,1 ,13772052853])
+    mysql.Insert_User_Info([1234567890,'boy1', '1997-03-27', 1, 13772052853])
 
     mysql.Delete_Diagnosis_by_ID(123124312)
     mysql.Insert_Diagnosis([123124312,"normal",0.57801119,'./normal.wav'])
+
+    # info=mysql.Return_Info_by_ID(1234567890)[0]
+    # info=mysql.Info2str(info)
+
+    idname=mysql.Return_all_ID_Name()
+    idname=mysql.ID_Name_list_to_str(idname)
 
     mysql.show_Info()
     mysql.show_conclusion()
@@ -220,8 +281,9 @@ def SQL_test():
 
 
 if __name__=='__main__':
-    Add_info_to_SQL(1234888821,'Peter','1972-01-02',0,13785266548)
-    Add_Diagnosis_to_SQL(1234888821,'murmur',0.765854,'./murmur.wav')
+    # Add_info_to_SQL(1234888821,'Peter','1972-01-02',0,13785266548)
+    # Add_Diagnosis_to_SQL(1234888821,'murmur',0.765854,'./murmur.wav')
+    print(Acquire_Info_by_ID(1234567890))
     SQL_test()
 
 

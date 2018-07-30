@@ -7,6 +7,7 @@ import socket
 import time
 import my_pridict
 from sever import Server
+import mysql
 
 test_ckpt_path="model0726/hs_model-95501.meta"
 ckpt_path="model0726/hs_model-95501"
@@ -35,8 +36,8 @@ import datetime
 
 class Server():
     def __init__(self,ip,port,sess):
-        # self.wav_length=32812
-        self.wav_length=10
+        self.wav_length=32812
+        # self.wav_length=10
         self.sess=sess
         self.s = socket.socket(socket.AF_INET,
                           socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
@@ -44,7 +45,7 @@ class Server():
         # s.bind(('192.168.1.103', 6666))  # 绑定本机IP和任意端口(>1024)
         self.s.bind((ip, port))  # 绑定本机IP和任意端口(>1024)
         self.s.listen(1)  # 监听，等待连接的最大数目为1
-        print('Server is running...')
+        print('Server is running...waitting a connection')
         self.sock, self.addr = self.s.accept()  # 接收一个新连接
         print('Accept new connection from %s:%s.' % self.addr)  # 接受新的连接请求
         # TCP(sock, addr)  # 处理连接
@@ -92,18 +93,47 @@ class Server():
                     break
                 elif data.decode('utf-8')=='wav_start':
                     self.sock.send('wav_start'.encode())
+                    # receive ID
+                    id =self.sock.recv(1024)
+                    self.sock.send(id)
+                    # receive wav
                     time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
                     my_server.receive_wav('{name}.wav'.format(name=time))
                     if pridict:
                         pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
                         # pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
-                        self.sock.send(predictions_map[pre_pro.index(max(pre_pro))].encode())
-                        print(predictions_map[pre_pro.index(max(pre_pro))])
+                        result=predictions_map[pre_pro.index(max(pre_pro))]
+                        self.sock.send(result.encode())
+                        print(result)
                     print(time)
+                    # 在局域网下无法使用
+                    # mysql.Add_Diagnosis_to_SQL(int(id),result,max(pre_pro),wav_dir='{name}.wav'.format(name=time))
+                    if(self.sock.recv(1024).decode('utf-8')=='wav_end'):
+                        self.sock.send('wav_end'.encode())
+                    else :
+                        print("communication error: wav_end")
+
                 elif data.decode('utf-8')=='acquire_info':
-                    pass
+                    self.sock.send('info'.encode())
+                    id=int(self.sock.recv(1024))
+                    self.sock.send( mysql.Acquire_Info_by_ID(id).encode())
+                    if(self.sock.recv(1024).decode('utf-8')=='info_end'):
+                        self.sock.send('info_end'.encode())
+                    else :
+                        print("communication error: info_end")
+
                 elif data.decode('utf-8')=='ID_update':
-                    pass
+                    idname=mysql.Update_all_name_id_by_str()
+                    self.sock.send(str(len(idname)).encode())
+                    if (self.sock.recv(1024).decode('utf-8') == 'ready'):
+                        for i in idname:
+                            self.sock.send(i.encode())
+                    else:
+                        print("no ready back")
+                    if(self.sock.recv(1024).decode('utf-8')=='update_end'):
+                        self.sock.send('update_end'.encode())
+                    else :
+                        print("communication error: update_end")
                 else:
                     print('unknown messsge:\t{mess}'.format(mess=data.decode('utf-8')))
 
