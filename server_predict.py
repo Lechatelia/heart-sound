@@ -93,6 +93,7 @@ class Server():
                     break
                 elif data.decode('utf-8')=='wav_start':
                     self.sock.send('wav_start'.encode())
+                    print('wav_start')
                     # receive ID
                     id =self.sock.recv(1024)
                     self.sock.send(id)
@@ -100,14 +101,15 @@ class Server():
                     time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
                     my_server.receive_wav('{name}.wav'.format(name=time))
                     if pridict:
-                        pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
-                        # pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
-                        result=predictions_map[pre_pro.index(max(pre_pro))]
+                        # pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
+                        pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
+                        diagnosis=predictions_map[pre_pro.index(max(pre_pro))]
+                        result='result{0}{1:*<4}'.format(str(pre_pro.index(max(pre_pro))+1),str(max(pre_pro)*10000).split('.')[0])
                         self.sock.send(result.encode())
                         print(result)
                     print(time)
                     # 在局域网下无法使用
-                    # mysql.Add_Diagnosis_to_SQL(int(id),result,max(pre_pro),wav_dir='{name}.wav'.format(name=time))
+                    mysql.Add_Diagnosis_to_SQL(int(id),diagnosis,max(pre_pro),wav_dir='{name}.wav'.format(name=time))
                     if(self.sock.recv(1024).decode('utf-8')=='wav_end'):
                         self.sock.send('wav_end'.encode())
                     else :
@@ -233,11 +235,12 @@ if __name__=='__main__':
         #     sock, addr = s.accept()  # 接收一个新连接
         #     TCP(sock, addr,sess)  # 处理连接
         while True:
-            # my_server = Server('192.168.1.102', 6666,sess)
-            my_server = Server('localhost', 6666,sess)
+            my_server = Server('192.168.1.102', 6666,sess)
+            # my_server = Server('localhost', 6666,sess)
             my_server.event_judge(pridict=True)
             print('you can now disconnect connection ')
             my_server.close()
+            time.sleep(1)
 
 
 

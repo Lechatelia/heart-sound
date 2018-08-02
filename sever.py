@@ -56,18 +56,18 @@ class Server():
 
     def close(self):
         self.s.close()
-
-    def event_judge(self,pridict=False):
-        while(1):
-            if self.sock.recv(1024).decode('utf-8')=='wav':
-                self.sock.send('recvwav'.encode())
-                time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
-                my_server.receive_wav('{name}.wav'.format(name=time))
-                if pridict:
-                    # server_predict.predict_wav(self.sess,'{name}.wav'.format(name=time))
-                    end=server_predict.predict_wav(self.sess,"wav/normal__201105011626.wav")
-                    self.sock.send(end.encode())
-                print(time)
+    #
+    # def event_judge(self,pridict=False):
+    #     while(1):
+    #         if self.sock.recv(1024).decode('utf-8')=='wav':
+    #             self.sock.send('recvwav'.encode())
+    #             time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
+    #             my_server.receive_wav('{name}.wav'.format(name=time))
+    #             if pridict:
+    #                 # server_predict.predict_wav(self.sess,'{name}.wav'.format(name=time))
+    #                 end=server_predict.predict_wav(self.sess,"wav/normal__201105011626.wav")
+    #                 self.sock.send(end.encode())
+    #             print(time)
 
 
 
