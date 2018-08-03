@@ -2,716 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c83626-68f6-4d14-a006-17b0b58ba680" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rename.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/5. MNIST最佳实践.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/5. MNIST最佳实践.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio_processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ceshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ceshi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chongfu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chongfu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chongfu1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chongfu1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201012172012.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201012172012.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105040918.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105040918.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105041959.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105041959.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105051017.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105051017.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105060108.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105060108.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105061143.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105061143.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105190800.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105190800.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201105280851.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201105280851.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106010559.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106010559.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106010602.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106010602.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106021541.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106021541.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106030612.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106030612.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106031558.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106031558.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106040722.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106040722.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106040933.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106040933.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106041452.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106041452.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106050353.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106050353.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106061233.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106061233.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106070537.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106070537.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106070949.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106070949.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106101314.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106101314.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106101955.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106101955.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106110909.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106110909.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106111119.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106111119.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106121242.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106121242.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106121445.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106121445.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106131834.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106131834.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106131835.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106131835.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106141701.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106141701.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106161016.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106161016.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106161019.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106161019.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106161219.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106161219.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106171003.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106171003.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106190520.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106190520.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106211041.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106211041.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106211430.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106211430.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106212112.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106212112.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106220340.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106220340.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/artifact__201106221254.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/artifact__201106221254.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101070953.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101070953.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101091153.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101091153.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101152255.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101152255.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101160804.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101160804.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101160808.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101160808.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101241423.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101241423.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201101241433.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201101241433.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201102070251.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201102070251.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201102071835.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201102071835.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201102241217.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201102241217.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201103150114.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201103150114.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201103170134.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201103170134.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201103182227.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201103182227.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201103200218.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201103200218.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201104021355.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201104021355.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201104140118.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201104140118.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201104270458.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201104270458.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrahls__201104270459.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrahls__201104270459.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__127_1306764300147_C2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__127_1306764300147_C2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__130_1306347376079_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__130_1306347376079_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__144_1306522408528_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__144_1306522408528_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__144_1306522408528_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__144_1306522408528_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__148_1306768801551_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__148_1306768801551_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__153_1306848820671_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__153_1306848820671_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__154_1306935608852_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__154_1306935608852_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__163_1307104470471_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__163_1307104470471_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__179_1307990076841_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__179_1307990076841_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__184_1308073010307_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__184_1308073010307_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__190_1308076920011_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__190_1308076920011_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__191_1308077299430_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__191_1308077299430_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__194_1308139824187_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__194_1308139824187_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__198_1308141739338_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__198_1308141739338_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__198_1308141739338_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__198_1308141739338_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__202_1308145175747_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__202_1308145175747_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__202_1308145175747_C2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__202_1308145175747_C2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__207_1308159792607_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__207_1308159792607_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__207_1308159792607_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__207_1308159792607_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__209_1308162216750_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__209_1308162216750_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__210_1308162935880_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__210_1308162935880_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__213_1308245263936_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__213_1308245263936_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__215_1308245664733_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__215_1308245664733_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__215_1308245664733_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__215_1308245664733_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__216_1308245839516_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__216_1308245839516_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__216_1308245839516_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__216_1308245839516_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__220_1308250132896_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__220_1308250132896_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__224_1308337157445_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__224_1308337157445_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__229_1308594979317_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__229_1308594979317_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__235_1308749032454_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__235_1308749032454_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__237_1308750231222_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__237_1308750231222_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__237_1308750231222_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__237_1308750231222_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__253_1309350256198_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__253_1309350256198_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__261_1309353556003_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__261_1309353556003_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__265_1309367698923_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__265_1309367698923_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__274_1311075637574_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__274_1311075637574_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__275_1310990852160_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__275_1310990852160_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__286_1311170606028_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__286_1311170606028_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__294_1311681084248_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__294_1311681084248_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/extrastole__298_1311685888900_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/extrastole__298_1311685888900_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__112_1306243000964_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__116_1306258689913_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__122_1306325762831_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__122_1306325762831_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__122_1306325762831_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__122_1306325762831_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__156_1306936373241_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__156_1306936373241_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__160_1307100683334_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__160_1307100683334_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__160_1307100683334_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__160_1307100683334_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__161_1307101199321_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__161_1307101199321_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__162_1307101835989_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__162_1307101835989_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__162_1307101835989_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__162_1307101835989_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__164_1307106095995_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__164_1307106095995_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__164_1307106095995_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__164_1307106095995_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__165_1307109069581_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__165_1307109069581_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__165_1307109069581_C2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__165_1307109069581_C2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_E.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__171_1307971016233_E.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__185_1308073325396_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__185_1308073325396_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__185_1308073325396_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__185_1308073325396_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__193_1308078104592_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__195_1308140095331_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__196_1308141034858_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__196_1308141034858_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__196_1308141034858_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__196_1308141034858_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__197_1308141235553_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__200_1308144251434_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__200_1308144251434_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__200_1308144251434_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__200_1308144251434_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201101051104.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201101051104.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201101051108.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201101051108.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201101051114.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201101051114.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201101180902.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201101180902.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201102051443.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201102051443.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201102052338.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201102052338.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201103291548.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201103291548.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201104021355.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201104021355.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201104241315.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201104241315.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201104291843.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201104291843.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201106141148.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201106141148.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222221.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222221.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222223.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222223.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222224.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222224.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222226.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222226.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222227.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222227.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222231.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222231.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222232.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222232.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222233.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222233.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222235.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222235.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222236.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222236.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222237.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222237.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222238.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222238.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222242.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222242.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222243.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222243.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222245.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222245.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222246.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222246.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222248.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222248.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222251.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222251.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222252.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222252.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222253.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222253.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222255.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222255.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222256.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222256.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__201108222258.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__201108222258.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__203_1308162026258_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__204_1308159229275_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__204_1308159229275_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__211_1308163238707_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__211_1308163238707_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__223_1308337062581_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__223_1308337062581_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__239_1309195730333_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__239_1309195730333_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__239_1309195730333_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__239_1309195730333_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__240_1309196119795_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__240_1309196119795_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__240_1309196119795_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__240_1309196119795_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__240_1309201366049_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__240_1309201366049_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__242_1309197394064_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__242_1309197394064_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__242_1309197394064_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__242_1309197394064_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__244_1309198148498_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__244_1309198148498_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__245_1309200438094_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__245_1309200438094_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__248_1309201683806_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__248_1309201683806_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__248_1309201683806_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__248_1309201683806_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__254_1309350589009_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__276_1311162716489_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__276_1311162716489_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__281_1311165683454_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__287_1311170903290_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__287_1311170903290_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__288_1311164615284_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__288_1311164615284_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__292_1311185449649_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__292_1311185449649_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__292_1311185449649_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__292_1311185449649_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur__293_1311680805936_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur__293_1311680805936_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_135_1306428972976_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_156_1306936373241_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_156_1306936373241_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_156_1306936373241_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_156_1306936373241_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_160_1307100683334_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_160_1307100683334_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_161_1307101199321_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_161_1307101199321_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_161_1307101199321_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_161_1307101199321_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_162_1307101835989_B_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_162_1307101835989_B_1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_162_1307101835989_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_162_1307101835989_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_164_1307106095995_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_164_1307106095995_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_165_1307109069581_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_171_1307971016233_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_171_1307971016233_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_171_1307971016233_F.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_171_1307971016233_F.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_185_1308073325396_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_185_1308073325396_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_200_1308144251434_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_200_1308144251434_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_231_1308748318393_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_231_1308748318393_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_240_1309201366049_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_240_1309201366049_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_240_1309201366049_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_240_1309201366049_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_243_1309197760898_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_243_1309197760898_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_243_1309197760898_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_243_1309197760898_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_272_1309370164386_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_272_1309370164386_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_288_1311164615284_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_288_1311164615284_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_288_1311164615284_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_288_1311164615284_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_292_1311185449649_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_292_1311185449649_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_293_1311680805936_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_293_1311680805936_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/murmur_noisymurmur_293_1311680805936_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/murmur_noisymurmur_293_1311680805936_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__103_1305031931979_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__103_1305031931979_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__103_1305031931979_D3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__106_1306776721273_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__106_1306776721273_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__106_1306776721273_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__106_1306776721273_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__106_1306776721273_C2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__106_1306776721273_C2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__106_1306776721273_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__106_1306776721273_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__106_1306776721273_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__106_1306776721273_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__107_1305654946865_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__107_1305654946865_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__109_1305653646620_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__109_1305653646620_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__113_1306244002866_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__113_1306244002866_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__115_1306259437619_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__115_1306259437619_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__117_1306262456650_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__117_1306262456650_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__125_1306332456645_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__125_1306332456645_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__126_1306777102824_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__126_1306777102824_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__126_1306777102824_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__126_1306777102824_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__126_1306777102824_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__126_1306777102824_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__127_1306764300147_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__127_1306764300147_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__127_1306764300147_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__127_1306764300147_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__127_1306764300147_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__127_1306764300147_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__128_1306344005749_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__128_1306344005749_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__128_1306344005749_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__128_1306344005749_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__128_1306344005749_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__128_1306344005749_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__129_1306344506305_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__129_1306344506305_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__129_1306344506305_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__129_1306344506305_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__129_1306344506305_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__129_1306344506305_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__133_1306759619127_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__133_1306759619127_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__133_1306759619127_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__133_1306759619127_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__133_1306759619127_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__133_1306759619127_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__134_1306428161797_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__134_1306428161797_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__134_1306428161797_C2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__134_1306428161797_C2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__134_1306428161797_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__134_1306428161797_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__137_1306764999211_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__137_1306764999211_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__137_1306764999211_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__137_1306764999211_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__139_1306519274653_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__139_1306519274653_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__140_1306519735121_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__140_1306519735121_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__140_1306519735121_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__140_1306519735121_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__140_1306519735121_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__140_1306519735121_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__141_1306520154450_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__141_1306520154450_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__141_1306520154450_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__141_1306520154450_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__143_1306763822290_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__143_1306763822290_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__143_1306763822290_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__143_1306763822290_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__145_1307987561278_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__145_1307987561278_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__145_1307987561278_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__145_1307987561278_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__146_1306778707532_D4.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__147_1306523973811_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__147_1306523973811_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__147_1306523973811_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__147_1306523973811_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__148_1306768801551_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__148_1306768801551_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__148_1306768801551_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__148_1306768801551_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__149_1306776016110_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__149_1306776016110_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__149_1306776016110_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__149_1306776016110_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__150_1306776340746_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__150_1306776340746_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__150_1306776340746_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__150_1306776340746_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__151_1306779785624_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__151_1306779785624_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__151_1306779785624_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__151_1306779785624_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__152_1306779561195_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__152_1306779561195_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__152_1306779561195_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__152_1306779561195_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__152_1306779561195_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__152_1306779561195_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__153_1306848820671_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__153_1306848820671_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__153_1306848820671_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__153_1306848820671_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__153_1306848820671_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__153_1306848820671_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__153_1306848820671_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__153_1306848820671_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__154_1306935608852_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__154_1306935608852_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__154_1306935608852_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__154_1306935608852_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__154_1306935608852_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__154_1306935608852_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__154_1306935608852_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__154_1306935608852_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__155_1306935902813_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__155_1306935902813_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__158_1306947254705_B2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__158_1306947254705_B2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__159_1307018640315_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__159_1307018640315_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__159_1307018640315_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__159_1307018640315_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__159_1307018640315_B2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__159_1307018640315_B2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__159_1307018640315_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__159_1307018640315_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__167_1307111318050_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__167_1307111318050_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__167_1307111318050_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__167_1307111318050_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__168_1307970069434_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__168_1307970069434_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__168_1307970069434_A2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__168_1307970069434_A2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__169_1307970398039_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__169_1307970398039_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__170_1307970562729_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__170_1307970562729_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__170_1307970562729_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__170_1307970562729_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__170_1307970562729_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__170_1307970562729_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__172_1307971284351_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__172_1307971284351_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__172_1307971284351_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__172_1307971284351_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__173_1307973611151_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__173_1307973611151_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__173_1307973611151_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__173_1307973611151_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__174_1307987737137_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__174_1307987737137_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__174_1307987737137_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__174_1307987737137_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__175_1307987962616_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__175_1307987962616_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__175_1307987962616_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__175_1307987962616_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__175_1307987962616_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__175_1307987962616_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__176_1307988171173_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__176_1307988171173_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__176_1307988171173_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__176_1307988171173_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__176_1307988171173_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__176_1307988171173_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__177_1307989650056_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__177_1307989650056_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__177_1307989650056_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__177_1307989650056_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__177_1307989650056_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__177_1307989650056_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__177_1307989650056_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__177_1307989650056_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__178_1307989887769_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__178_1307989887769_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__178_1307989887769_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__178_1307989887769_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__179_1307990076841_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__179_1307990076841_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__179_1307990076841_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__179_1307990076841_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__180_1307990956284_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__180_1307990956284_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__180_1307990956284_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__180_1307990956284_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__181_1308052613891_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__181_1308052613891_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__181_1308052613891_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__181_1308052613891_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__183_1308072703477_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__183_1308072703477_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__183_1308072703477_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__183_1308072703477_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__184_1308073010307_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__184_1308073010307_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__184_1308073010307_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__184_1308073010307_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__186_1308073648738_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__186_1308073648738_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__186_1308073648738_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__186_1308073648738_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__188_1308074301731_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__188_1308074301731_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__188_1308074301731_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__188_1308074301731_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__190_1308076920011_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__190_1308076920011_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__190_1308076920011_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__190_1308076920011_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__191_1308077299430_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__191_1308077299430_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__194_1308139824187_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__194_1308139824187_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__194_1308139824187_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__194_1308139824187_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__198_1308141739338_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__198_1308141739338_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201101070538.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201101070538.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201101151127.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201101151127.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201102081152.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201102081152.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201102081321.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201102081321.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201102201230.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201102201230.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201102260502.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201102260502.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201102270940.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201102270940.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103090635.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103090635.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103101140.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103101140.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103140132.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103140132.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103140135.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103140135.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103140822.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103140822.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103151912.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103151912.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103170121.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103170121.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201103221214.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201103221214.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201104122156.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201104122156.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201104141251.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201104141251.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201105021654.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201105021654.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201105021804.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201105021804.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201105151450.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201105151450.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106111136.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106111136.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106141148.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106141148.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106151236.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106151236.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106210943.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106210943.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106221418.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106221418.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201106221450.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201106221450.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201108011112.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201108011112.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201108011114.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201108011114.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201108011115.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201108011115.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201108011118.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201108011118.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201_1308144942432_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201_1308144942432_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__201_1308144942432_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__201_1308144942432_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__202_1308145175747_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__202_1308145175747_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__202_1308145175747_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__202_1308145175747_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__204_1308159229275_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__204_1308159229275_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__204_1308159229275_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__204_1308159229275_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__206_1308159601959_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__206_1308159601959_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__207_1308159792607_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__207_1308159792607_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__208_1308159994503_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__208_1308159994503_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__209_1308162216750_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__209_1308162216750_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__209_1308162216750_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__209_1308162216750_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__210_1308162935880_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__210_1308162935880_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__210_1308162935880_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__210_1308162935880_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__210_1308162935880_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__210_1308162935880_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__210_1308162935880_D2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__210_1308162935880_D2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__213_1308245263936_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__213_1308245263936_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__214_1308245489717_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__214_1308245489717_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__215_1308245664733_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__215_1308245664733_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__215_1308245664733_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__215_1308245664733_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__216_1308245839516_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__216_1308245839516_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__217_1308246111629_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__217_1308246111629_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__217_1308246111629_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__217_1308246111629_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__218_1308246311449_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__218_1308246311449_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__218_1308246311449_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__218_1308246311449_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__220_1308250132896_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__220_1308250132896_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__220_1308250132896_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__220_1308250132896_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__224_1308337157445_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__224_1308337157445_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__227_1308594233667_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__227_1308594233667_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__227_1308594233667_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__227_1308594233667_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__230_1308595300880_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__230_1308595300880_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__230_1308595300880_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__230_1308595300880_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__232_1308748524018_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__232_1308748524018_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__232_1308748524018_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__232_1308748524018_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__232_1308748524018_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__232_1308748524018_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__232_1308748524018_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__232_1308748524018_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__232_1308748524018_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__232_1308748524018_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__235_1308749032454_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__235_1308749032454_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__235_1308749032454_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__235_1308749032454_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__237_1308750231222_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__237_1308750231222_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__238_1309194586293_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__238_1309194586293_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__238_1309194586293_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__238_1309194586293_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__250_1309202496494_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__250_1309202496494_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__250_1309202496494_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__250_1309202496494_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__252_1309203336604_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__252_1309203336604_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__256_1309351470137_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__256_1309351470137_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__258_1309352253234_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__258_1309352253234_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__260_1309353164458_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__260_1309353164458_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__261_1309353556003_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__261_1309353556003_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__262_1309355283807_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__262_1309355283807_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__267_1309368735165_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__267_1309368735165_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__270_1309369533040_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__270_1309369533040_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__273_1309370841191_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__273_1309370841191_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__274_1311075637574_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__274_1311075637574_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__274_1311075637574_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__274_1311075637574_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__274_1311075637574_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__274_1311075637574_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__274_1311075637574_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__274_1311075637574_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__278_1311163365896_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__278_1311163365896_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__278_1311163365896_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__278_1311163365896_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__280_1311165195344_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__280_1311165195344_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__282_1311166081161_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__282_1311166081161_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__283_1311167409239_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__283_1311167409239_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__286_1311170606028_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__286_1311170606028_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__286_1311170606028_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__286_1311170606028_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__286_1311170606028_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__286_1311170606028_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__286_1311170606028_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__286_1311170606028_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__290_1311182875320_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__290_1311182875320_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__291_1311185210672_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__291_1311185210672_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__294_1311681084248_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__294_1311681084248_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__294_1311681084248_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__294_1311681084248_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__294_1311681084248_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__294_1311681084248_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__295_1311682673157_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__295_1311682673157_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__296_1311682952647_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__296_1311682952647_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__296_1311682952647_A2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__296_1311682952647_A2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__298_1311685888900_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__298_1311685888900_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__299_1311770522820_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__299_1311770522820_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal__300_1311772096120_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal__300_1311772096120_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_101_1305030823364_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_101_1305030823364_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_101_1305030823364_E.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_101_1305030823364_E.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_104_1305032492469_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_104_1305032492469_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_105_1305033453095_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_105_1305033453095_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_105_1305033453095_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_105_1305033453095_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_106_1306776721273_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_106_1306776721273_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_107_1305654946865_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_107_1305654946865_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_108_1305654420093_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_108_1305654420093_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_108_1305654420093_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_108_1305654420093_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653646620_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653646620_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_E.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_E.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_F.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_109_1305653972028_F.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_110_1305655332337_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_110_1305655332337_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_110_1305655332337_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_110_1305655332337_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_113_1306244002866_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_113_1306244002866_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_113_1306244002866_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_113_1306244002866_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_115_1306259437619_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_115_1306259437619_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_115_1306259437619_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_115_1306259437619_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_117_1306262456650_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_118_1306262335509_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_121_1306263877235_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_123_1306331925797_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_123_1306331925797_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_123_1306331925797_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_123_1306331925797_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_A2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_A2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_125_1306332456645_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_127_1306764300147_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_127_1306764300147_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_129_1306344506305_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_129_1306344506305_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_129_1306344506305_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_129_1306344506305_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_130_1306347376079_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_130_1306347376079_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_130_1306347376079_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_130_1306347376079_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_132_1306758754432_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_132_1306758754432_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_132_1306758754432_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_132_1306758754432_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_133_1306759619127_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_134_1306428161797_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_134_1306428161797_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_134_1306428161797_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_134_1306428161797_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_136_1306429977501_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_A2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_A2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_137_1306764999211_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_138_1306762146980_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_138_1306762146980_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_138_1306762146980_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_138_1306762146980_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_139_1306519274653_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_139_1306519274653_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_140_1306519735121_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_140_1306519735121_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_141_1306520154450_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_142_1306763049574_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_143_1306763822290_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_143_1306763822290_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_144_1306522408528_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_144_1306522408528_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_144_1306522408528_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_144_1306522408528_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_146_1306778707532_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_146_1306778707532_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_147_1306523973811_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_147_1306523973811_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_149_1306776016110_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_149_1306776016110_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_150_1306776340746_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_150_1306776340746_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_151_1306779785624_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_151_1306779785624_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_154_1306935608852_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_154_1306935608852_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_155_1306935902813_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_155_1306935902813_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_155_1306935902813_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_155_1306935902813_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_157_1306937583792_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_157_1306937583792_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_157_1306937583792_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_157_1306937583792_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_158_1306947254705_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_158_1306947254705_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_158_1306947254705_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_158_1306947254705_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_159_1307018640315_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_159_1307018640315_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_159_1307018640315_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_159_1307018640315_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_163_1307104470471_D1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_163_1307104470471_D1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_167_1307111318050_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_167_1307111318050_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_167_1307111318050_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_167_1307111318050_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_168_1307970069434_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_168_1307970069434_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_169_1307970398039_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_169_1307970398039_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_170_1307970562729_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_170_1307970562729_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_172_1307971284351_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_172_1307971284351_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_173_1307973611151_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_173_1307973611151_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_173_1307973611151_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_173_1307973611151_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_176_1307988171173_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_176_1307988171173_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_178_1307989887769_B1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_178_1307989887769_B1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_181_1308052613891_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_181_1308052613891_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_182_1308053371395_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_182_1308053371395_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_188_1308074301731_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_188_1308074301731_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_189_1308075231945_A1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_189_1308075231945_A1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_194_1308139824187_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_194_1308139824187_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_198_1308141739338_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_198_1308141739338_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_207_1308159792607_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_207_1308159792607_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_216_1308245839516_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_216_1308245839516_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_234_1308748855534_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_234_1308748855534_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_246_1309199278902_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_246_1309199278902_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_258_1309352253234_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_258_1309352253234_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_264_1309356143724_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_270_1309369533040_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_270_1309369533040_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_270_1309369533040_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_270_1309369533040_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_271_1309369876160_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_278_1311163365896_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_278_1311163365896_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_284_1311168471850_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_284_1311168471850_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_284_1311168471850_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_284_1311168471850_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_285_1311169246969_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_285_1311169246969_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_296_1311682952647_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_296_1311682952647_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/normal_noisynormal_296_1311682952647_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/normal_noisynormal_296_1311682952647_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/librosa-core-stft-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnist_inference.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnist_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-11001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-11001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-11001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-1501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-19501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-19501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-19501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-21501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-21501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-21501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-3501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-3501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-3501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-38501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-38501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-38501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-6501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-6501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0715/mnist_model-6501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-1001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-1001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-1001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-11501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-11501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-11501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-12501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-12501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-12501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-13501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-14501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-14501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-14501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-17501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-17501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-17501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-18501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-18501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-18501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-19001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-19001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-19001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-20001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-20001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-20001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-22501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-23501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-23501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-23501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-25501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-25501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-25501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-26001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-26001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-26001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-28001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-28001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-28001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-30001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-30001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-30001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-31001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-31001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-31001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-37001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-37001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-37001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-43001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-43001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-43001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-7001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-7001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-7001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-72001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-72001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-72001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-84001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-84001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-84001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-9501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-9501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0716/mnist_model-9501.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_pridict.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_pridict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_pro1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pre_pro1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/artifact__201106040947.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/artifact__201106040947.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrahls__201101161027.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrahls__201101161027.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__128_1306344005749_A.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__128_1306344005749_A.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__134_1306428161797_C1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__134_1306428161797_C1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__138_1306762146980_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__138_1306762146980_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__140_1306519735121_D.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__140_1306519735121_D.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__151_1306779785624_B.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__151_1306779785624_B.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__249_1309202052376_C.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/extrastole__249_1309202052376_C.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/murmur__201101051114.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/murmur__201101051114.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/normal__201105011626.wav" beforeDir="false" afterPath="$PROJECT_DIR$/wav/normal__201105011626.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/write.csv" beforeDir="false" afterPath="$PROJECT_DIR$/write.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/write.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/write.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sever.py" beforeDir="false" afterPath="$PROJECT_DIR$/sever.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -721,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/heart_sounds$client.coverage" NAME="client Coverage Results" MODIFIED="1532593522996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1531632176626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$client.coverage" NAME="client Coverage Results" MODIFIED="1533309163897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1533307389679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$filter.coverage" NAME="filter Coverage Results" MODIFIED="1532184686095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$audio_processing.coverage" NAME="audio_processing Coverage Results" MODIFIED="1532512499416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sound$filter.coverage" NAME="filter Coverage Results" MODIFIED="1532194143934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1532593505894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1532592636111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$sever.coverage" NAME="sever Coverage Results" MODIFIED="1530889548802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1532962955088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1533307259438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$sever.coverage" NAME="sever Coverage Results" MODIFIED="1533309090626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/5__MNIST$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1530689928384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$rename.coverage" NAME="rename Coverage Results" MODIFIED="1532485972603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$my_inference.coverage" NAME="my_inference Coverage Results" MODIFIED="1531727358170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -743,20 +39,28 @@
       <file leaf-file-name="mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3791">
-              <caret line="224" column="14" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
+            <state relative-caret-position="191">
+              <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="123.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/123.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="811" selection-start-line="811" selection-end-line="811" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="hah.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hah.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="pydevd_frame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="my_train.py" pinned="false" current-in-tab="false">
@@ -780,23 +84,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sever.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sever.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="267">
+              <caret line="121" column="29" lean-forward="true" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="time.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2924">
+              <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="81" selection-start-line="81" selection-end-line="139" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceshi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -804,8 +126,8 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -825,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sever.py" />
-        <option value="$PROJECT_DIR$/ceshi.py" />
         <option value="$PROJECT_DIR$/mnist_train.py" />
         <option value="$PROJECT_DIR$/librosa-core-stft-1.py" />
         <option value="$PROJECT_DIR$/my_dataset.py" />
@@ -834,10 +154,12 @@
         <option value="$PROJECT_DIR$/my_inference.py" />
         <option value="$PROJECT_DIR$/rename.py" />
         <option value="$PROJECT_DIR$/audio_processing.py" />
-        <option value="$PROJECT_DIR$/mysql.py" />
         <option value="$PROJECT_DIR$/my_train.py" />
         <option value="$PROJECT_DIR$/my_pridict.py" />
         <option value="$PROJECT_DIR$/server_predict.py" />
+        <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/mysql.py" />
+        <option value="$PROJECT_DIR$/sever.py" />
         <option value="$PROJECT_DIR$/client.py" />
       </list>
     </option>
@@ -896,7 +218,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.client">
-    <configuration name="audio_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -909,7 +231,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/audio_processing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -929,25 +251,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="my_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="5. MNIST最佳实践" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -991,20 +294,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sever" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="5. MNIST最佳实践" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sever.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.audio_processing" />
-      <item itemvalue="Python.my_train" />
       <item itemvalue="Python.mysql" />
       <item itemvalue="Python.server_predict" />
       <item itemvalue="Python.client" />
+      <item itemvalue="Python.ceshi" />
+      <item itemvalue="Python.sever" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.client" />
-        <item itemvalue="Python.server_predict" />
-        <item itemvalue="Python.my_train" />
+        <item itemvalue="Python.sever" />
+        <item itemvalue="Python.ceshi" />
         <item itemvalue="Python.mysql" />
-        <item itemvalue="Python.audio_processing" />
+        <item itemvalue="Python.server_predict" />
       </list>
     </recent_temporary>
   </component>
@@ -1023,15 +345,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002764" side_tool="true" weight="0.3265086" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3270242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997236" weight="0.3265086" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912722" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22102426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22664456" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" weight="0.26866764" />
@@ -1050,24 +373,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46228448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22102426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280757" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46912244" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3270242" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38801262" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" weight="0.26866764" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294702" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,19 +403,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>180</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/ceshi.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="36" />
+          <line>332</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1105,7 +423,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1114,9 +432,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/151968692/_socket.py" />
-    <entry file="file://$PROJECT_DIR$/mnist_train.ipynb" />
-    <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/audioread/rawread.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/pip/_vendor/distlib/util.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/scipy/fftpack/realtransforms.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/librosa/feature/spectral.py" />
@@ -1159,13 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rename.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/audio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1129">
@@ -1184,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1221,20 +523,15 @@
     <entry file="file://$PROJECT_DIR$/123.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql.py">
+    <entry file="file://$PROJECT_DIR$/my_pridict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3791">
-          <caret line="224" column="14" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
+        <state relative-caret-position="-908">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hah.png" />
+    <entry file="file://$PROJECT_DIR$/hah.jpg" />
     <entry file="file://$PROJECT_DIR$/my_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1252,32 +549,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="2924">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_pridict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-908">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hah.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hah.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="81" selection-start-line="81" selection-end-line="139" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="811" selection-start-line="811" selection-end-line="811" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="121" column="29" lean-forward="true" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="52" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

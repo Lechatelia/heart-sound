@@ -3,8 +3,8 @@
 
 from socket import *
 
-HOST = 'localhost'
-PORT = 6666
+HOST = '192.168.1.102'
+PORT = 6789
 BUFFSIZE = 2048
 ADDR = (HOST, PORT)
 wav_name=["wav/normal__201105011626.wav"]
@@ -15,15 +15,24 @@ if __name__=='__main__':
     tctimeClient.connect(ADDR)
     print('connect to %s:%s sucessfully!' % ADDR)
     while True:
-        print("输入send发送位置")
-        data = input(">")
-        if not data:
+        print("输入发送数据")
+        try:
+            data = input(">")
+        except KeyboardInterrupt:
+            print('over')
+            tctimeClient.close()
             break
-        if data=='send':
-            #tctimeClient.send(data[0].encode())
-            tctimeClient.send(wav_name[0].encode())
-            predict = tctimeClient.recv(BUFFSIZE).decode()
+        else:
             if not data:
                 break
-            print(predict)
+            # if data=='send':
+            else:
+                tctimeClient.send(data.encode())
+
+                print('receive:\t{num}'.format(num=tctimeClient.recv(BUFFSIZE).decode()))
+                # tctimeClient.send(data.encode())
+                # predict = tctimeClient.recv(BUFFSIZE).decode()
+                # if not data:
+                #     break
+                # print(predict)
     tctimeClient.close()

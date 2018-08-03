@@ -4,7 +4,8 @@ import datetime
 table_name='USE_INF'
 cols={'username':'USE_NAME','user_age':'USE_AGE','user_sex':'USE_SEX','user_birthdar':'USE_BIR'}
 
-Server=["132.232.3.244", "root", "hx37241", "renesa"]
+Server=["127.0.0.1", "root", "970327", "renesas"]
+# Server=["132.232.3.244", "root", "970327", "renesa"]
 
 #注意
 # "VALUES ('%s',  %d ,%d ,%d)" \
@@ -44,6 +45,23 @@ class Mysql():
                       (row[0], row[1], row[2], row[3],row[4]))
                       # (row[0], row[1], row[2].strftime("%Y-%m-%d"), row[3],row[4]))
             print("--------------------------------------------------")
+        except:
+            print("Error: unable to fetch data")
+
+    def Get_all_user_info_return_str(self):
+        # 使用cursor()方法获取操作游标
+        cursor = self.db.cursor()
+        info_list=[]
+        # SQL 查询语句
+        sql = "SELECT * FROM USE_INFMATION "
+        try:
+            # 执行SQL语句s
+            cursor.execute(sql)
+            # 获取所有记录列表
+            results = cursor.fetchall()
+            for row in results:
+                info_list.append(self.Info2str(row))
+            return info_list
         except:
             print("Error: unable to fetch data")
 
@@ -178,6 +196,27 @@ class Mysql():
         except:
             print("Error: unable to fetch data")
 
+    def Return_all_ID(self):
+        # 使用cursor()方法获取操作游标
+        cursor = self.db.cursor()
+        id_list=[]
+        # SQL 查询语句
+        sql = "SELECT USE_ID FROM USE_INFMATION "
+        try:
+            # 执行SQL语句s
+            cursor.execute(sql)
+            # 获取所有记录列表
+            results = cursor.fetchall()
+            for row in results:
+                id_list.append(row[0])
+            return id_list
+        except:
+            print("Error: unable to fetch data")
+
+    def Return_max_id(self):
+        return  max(self.Return_all_ID())
+
+
     def ID_Name_list_to_str(self,list_idname):
         str_list=[]
         for idname in list_idname:
@@ -239,6 +278,13 @@ def Add_info_to_SQL(ID=1234567890,Name='XJTUer',Birthday='1997-03-27',sex=1,tel=
     mysql.Insert_User_Info([ID,Name, Birthday ,sex ,tel])
     mysql.close_sql()
 
+
+def Add_info_to_SQL_no_id(Name='XJTUer',Birthday='1997-03-27',sex=1,tel=13712345678):
+    mysql=Mysql()
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
+    mysql.Insert_User_Info([mysql.Return_max_id()+1,Name, Birthday ,sex ,tel])
+    mysql.close_sql()
+
 def Add_Diagnosis_to_SQL(ID=1234567890,Result='normal',Possi=0.512345,wav_dir='./normal.wav'):
     mysql=Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
@@ -256,10 +302,17 @@ def Update_all_name_id_by_str():
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.ID_Name_list_to_str(mysql.Return_all_ID_Name())
 
+
+def get_all_info():
+    mysql = Mysql()
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
+    return mysql.Get_all_user_info_return_str()
+
+
 def SQL_test():
     time =str(datetime.datetime.now()).split('.')[0]
     mysql=Mysql()
-    mysql.connect("132.232.3.244", "root", "hx37241", "renesa")
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
 
 
     mysql.Delete_Info_by_ID('1234567890')
@@ -274,6 +327,9 @@ def SQL_test():
     idname=mysql.Return_all_ID_Name()
     idname=mysql.ID_Name_list_to_str(idname)
 
+    id=mysql.Return_all_ID()
+    id_max=mysql.Return_max_id()
+
     mysql.show_Info()
     mysql.show_conclusion()
     mysql.close_sql()
@@ -282,8 +338,11 @@ def SQL_test():
 
 if __name__=='__main__':
     # Add_info_to_SQL(1234888821,'Peter','1972-01-02',0,13785266548)
-    # Add_Diagnosis_to_SQL(1234888821,'murmur',0.765854,'./murmur.wav')
+    # Add_Diagnosis_to_SQL(123456521, 'murmur', 0.8558, wav_dir='{name}.wav'.format(name=str(str(datetime.datetime.now()).split('.')[0])))
+
     print(Acquire_Info_by_ID(1234567890))
+    a = get_all_info()
+    print(a)
     SQL_test()
 
 
