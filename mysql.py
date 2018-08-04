@@ -33,7 +33,7 @@ class Mysql():
         cursor = self.db.cursor()
 
         # SQL 查询语句
-        sql = "SELECT * FROM USE_INFMATION "
+        sql = "SELECT * FROM USE_INFMATION order by USE_ID DESC"
         try:
             # 执行SQL语句s
             cursor.execute(sql)
@@ -53,7 +53,7 @@ class Mysql():
         cursor = self.db.cursor()
         info_list=[]
         # SQL 查询语句
-        sql = "SELECT * FROM USE_INFMATION "
+        sql = "SELECT * FROM USE_INFMATION  "
         try:
             # 执行SQL语句s
             cursor.execute(sql)
@@ -181,17 +181,20 @@ class Mysql():
            # 发生错误时回滚
            self.db.rollback()
 
+
     def Return_all_ID_Name(self):
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
 
         # SQL 查询语句
-        sql = "SELECT USE_ID,USE_NAME FROM USE_INFMATION "
+        sql = "SELECT USE_ID,USE_NAME FROM USE_INFMATION ORDER by USE_ID DESC limit 5 "
         try:
             # 执行SQL语句s
             cursor.execute(sql)
             # 获取所有记录列表
             results = cursor.fetchall()
+            # if len(results)>5:
+            #     results=results[0:6]
             return results
         except:
             print("Error: unable to fetch data")
@@ -216,6 +219,22 @@ class Mysql():
     def Return_max_id(self):
         return  max(self.Return_all_ID())
 
+    def Return_dianosis_by_id(self,ID):
+        # 使用cursor()方法获取操作游标
+        cursor = self.db.cursor()
+
+        # SQL 查询语句
+        sql = "SELECT * FROM CONCLUSION WHERE USE_ID = '%s'" % (ID)
+        try:
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 获取所有记录列表
+            results = cursor.fetchall()
+            if (len(results)>10):
+                results=results[-10:]
+            return  results
+        except:
+            print("Error: unable to fetch data")
 
     def ID_Name_list_to_str(self,list_idname):
         str_list=[]
@@ -229,6 +248,21 @@ class Mysql():
             return '{0[0]:*<10}{0[1]:*<20}{0[2]}{0[3]:*<1}{0[4]:*<11}'.format(infolist)
         else:
             print('info format error')
+
+    def Diagnosis2str(self,diaglist):
+        if len(diaglist)==5:
+            return '{0[0]:*<10}{0[1]:*<20}{0[2]:*<10}{0[3]}{0[4]:*<30}'.format(diaglist)
+        else:
+            print('diagnosis format error')
+
+    def Diagnosis_list_to_str(self,results):
+        str_list=[]
+        for row in results:
+            str_list.append(self.Diagnosis2str(row))
+        return str_list
+
+
+
     def Delete_Diagnosis_by_ID(self,ID):
         # SQL 删除语句
         cursor = self.db.cursor()
@@ -302,12 +336,15 @@ def Update_all_name_id_by_str():
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.ID_Name_list_to_str(mysql.Return_all_ID_Name())
 
-
 def get_all_info():
     mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.Get_all_user_info_return_str()
 
+def get_diagnosis_by_id(id):
+    mysql = Mysql()
+    mysql.connect(Server[0], Server[1], Server[2], Server[3])
+    return mysql.Diagnosis_list_to_str(mysql.Return_dianosis_by_id(id))
 
 def SQL_test():
     time =str(datetime.datetime.now()).split('.')[0]
@@ -324,11 +361,12 @@ def SQL_test():
     # info=mysql.Return_Info_by_ID(1234567890)[0]
     # info=mysql.Info2str(info)
 
-    idname=mysql.Return_all_ID_Name()
-    idname=mysql.ID_Name_list_to_str(idname)
-
-    id=mysql.Return_all_ID()
-    id_max=mysql.Return_max_id()
+    # idname=mysql.Return_all_ID_Name()
+    # idname=mysql.ID_Name_list_to_str(idname)
+    #
+    # id=mysql.Return_all_ID()
+    # id_max=mysql.Return_max_id()
+    # print(mysql.Diagnosis_list_to_str(mysql.Return_dianosis_by_id(123456521)))
 
     mysql.show_Info()
     mysql.show_conclusion()
@@ -343,6 +381,10 @@ if __name__=='__main__':
     print(Acquire_Info_by_ID(1234567890))
     a = get_all_info()
     print(a)
+
+    print(get_diagnosis_by_id(123456521))
+    # Add_info_to_SQL_no_id()
+
     SQL_test()
 
 

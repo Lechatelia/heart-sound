@@ -7,6 +7,7 @@ import csv
 import audio_processing
 from skimage import io
 import matplotlib.pyplot as plt
+import time as clock
 import datetime
 out_file = open('./chongfu.txt', 'a+')
 out_file.write("jsoasladasass\n")
@@ -22,6 +23,9 @@ print(a[0:10].strip('*'))
 print(a[10:].strip('*'))
 
 
+time =str(datetime.datetime.now()).split('.')[0]
+print(str(time))
+clock.sleep(0.1)
 time =str(datetime.datetime.now()).split('.')[0]
 print(str(time))
 

@@ -41,7 +41,7 @@ class Server():
         self.sess=sess
         self.s = socket.socket(socket.AF_INET,
                           socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
-
+        self.s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         # s.bind(('192.168.1.103', 6666))  # 绑定本机IP和任意端口(>1024)
         self.s.bind((ip, port))  # 绑定本机IP和任意端口(>1024)
         self.s.listen(1)  # 监听，等待连接的最大数目为1
@@ -112,32 +112,55 @@ class Server():
                     mysql.Add_Diagnosis_to_SQL(int(id),diagnosis,max(pre_pro),wav_dir='{name}.wav'.format(name=time))
                     if(self.sock.recv(1024).decode('utf-8')=='wav_end'):
                         self.sock.send('wav_end'.encode())
+                        print('wav end')
                     else :
                         print("communication error: wav_end")
 
                 elif data.decode('utf-8')=='acquire_info':
-                    self.sock.send('info'.encode())
+                    print('acquire_info start')
+                    self.sock.send('acquire_info'.encode())
                     id=int(self.sock.recv(1024))
                     self.sock.send( mysql.Acquire_Info_by_ID(id).encode())
                     if(self.sock.recv(1024).decode('utf-8')=='info_end'):
                         self.sock.send('info_end'.encode())
+                        print('info end')
+                    else :
+                        print("communication error: info_end")
+
+                elif data.decode('utf-8')=='get_time':
+                    print('get_time start')
+                    self.sock.send( str(datetime.datetime.now()).encode())
+                    if(self.sock.recv(1024).decode('utf-8')=='time_end'):
+                        self.sock.send('time_end'.encode())
+                        print('time end')
                     else :
                         print("communication error: info_end")
 
                 elif data.decode('utf-8')=='ID_update':
+                    print('ID update')
                     idname=mysql.Update_all_name_id_by_str()
-                    self.sock.send(str(len(idname)).encode())
+                    self.sock.send(('ID_'+str(len(idname))).encode())
                     if (self.sock.recv(1024).decode('utf-8') == 'ready'):
-                        for i in idname:
-                            self.sock.send(i.encode())
+                        self.sock.send(self.strlist_2_one_str(idname).encode())
+                        # for i in idname:
+                            # self.sock.send(i.encode())
                     else:
-                        print("no ready back")
+                        print("no ready end")
                     if(self.sock.recv(1024).decode('utf-8')=='update_end'):
                         self.sock.send('update_end'.encode())
+                        print('ID update end')
                     else :
                         print("communication error: update_end")
                 else:
                     print('unknown messsge:\t{mess}'.format(mess=data.decode('utf-8')))
+
+    def strlist_2_one_str(self, list):
+        str = ''
+        if len(list) == 0:
+            return 'blank'
+        for i in list:
+            str = str + i
+        return str
 
 
 def pridict(sess,features):
