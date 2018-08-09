@@ -50,13 +50,45 @@ class Server():
         print('Accept new connection from %s:%s.' % self.addr)  # 接受新的连接请求
         # TCP(sock, addr)  # 处理连接
 
+    def reset(self,ip,port,sess):
+        self.s = socket.socket(socket.AF_INET,
+                          socket.SOCK_STREAM)  # 创建socket (AF_INET:IPv4, AF_INET6:IPv6) (SOCK_STREAM:面向流的TCP协议)
+        self.s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        # s.bind(('192.168.1.103', 6666))  # 绑定本机IP和任意端口(>1024)
+        self.s.bind((ip, port))  # 绑定本机IP和任意端口(>1024)
+        self.s.listen(1)  # 监听，等待连接的最大数目为1
+        print('Server is reset...waitting a connection')
+        self.sock, self.addr = self.s.accept()  # 接收一个新连接
+        print('Accept new connection from %s:%s.' % self.addr)  # 接受新的连接请求
+        # TCP(sock, addr)  # 处理连接
+
     def receive_wav(self,wav_name):
         # Length=32000
         Length = self.wav_length
         length = 0
+        counter=0
         with open(wav_name, 'wb') as f:
             while (length < Length):
-                data = self.sock.recv(5000)  # 接受其数据
+                # data = self.sock.recv(5000)  # 接受其数据
+
+                self.s.settimeout(2)
+                try:
+                    data = self.sock.recv(1024)  # 接受其数据
+                except socket.timeout:
+                    print("time out")
+                    for i in range(Length-length):
+                        f.write(chr(0x00).encode())
+                    print(str(length ))
+                    print(str(len(data)))
+                    break
+                except ConnectionResetError:
+                    # self.reset()
+                    self.sock.close()  # 关闭连接
+                    print('ConnectionResetError')
+                    print(str(length))
+                    print(str(len(data)))
+
+                    break
                 if data:
                     # if not data or data.decode() == 'quit':  # 如果数据为空或者'quit'，则退出
                     #     break
@@ -64,9 +96,19 @@ class Server():
                     print(len(data))
                     f.write(data)
                     length += len(data)
+                    # time.sleep(0.001)
                     if length == Length:
                         f.close()
                         break
+                    else:
+                        # pass
+                        self.sock.send('get'.encode())
+                        print('get')
+                        # if counter%4==0:
+                        #     self.sock.send('get'.encode())
+                        #     print('get')
+                        # counter=counter+1
+
                     # print(data.decode('utf-8'))
                     # sock.send(data.decode('utf-8').upper().encode())  # 发送变成大写后的数据,需先解码,再按utf-8编码,  encode()其实就是encode('utf-8')
                 else:
@@ -95,17 +137,29 @@ class Server():
                     self.sock.send('wav_start'.encode())
                     print('wav_start')
                     # receive ID
+
                     id =self.sock.recv(1024)
+                    while(id.decode('utf-8')=='wav_start'):
+                        id = self.sock.recv(1024)
                     self.sock.send(id)
                     # receive wav
                     time = str(datetime.datetime.now()).split('.')[0].replace(':','_')
-                    my_server.receive_wav('{name}.wav'.format(name=time))
+                    self.receive_wav('{name}.wav'.format(name=time))
                     if pridict:
-                        # pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
-                        pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
+                        pre_pro=predict_wav(self.sess,'{name}.wav'.format(name=time))
+                        # pre_pro=predict_wav(self.sess,"wav/normal__201105011626.wav")
                         diagnosis=predictions_map[pre_pro.index(max(pre_pro))]
-                        result='result{0}{1:*<4}'.format(str(pre_pro.index(max(pre_pro))+1),str(max(pre_pro)*10000).split('.')[0])
-                        self.sock.send(result.encode())
+                        print(diagnosis)
+                        if(max(pre_pro)==1):
+                            possibility=0.9999
+                        else:
+                            possibility=max(pre_pro)
+                        result='result{0}{1:*<4}'.format(str(pre_pro.index(max(pre_pro))+1),str(possibility*10000).split('.')[0])
+                        try:
+                            self.sock.send(result.encode())
+                        except OSError:
+                            print('不够就结束啦')
+                            break
                         print(result)
                     print(time)
                     # 在局域网下无法使用

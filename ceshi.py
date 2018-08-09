@@ -12,22 +12,29 @@ import datetime
 out_file = open('./chongfu.txt', 'a+')
 out_file.write("jsoasladasass\n")
 
+print(str(32%4))
+#
+# with open('test.wav', 'wb') as f:
+#     for i in range(100):
+#         f.write(chr(0x00).encode())
+#     f.close()
+
 #Python3.4以后的新方式，解决空行问题
 #
 # pre_pro=[0.1,0.2,0.4,0.3]
 # result='result{0}{1:*<4}'.format(str(pre_pro.index(max(pre_pro))),str(max(pre_pro)*10000).split('.')[0])
 # print(result)
-
-a='98343*****peterdfds**'
-print(a[0:10].strip('*'))
-print(a[10:].strip('*'))
-
-
-time =str(datetime.datetime.now()).split('.')[0]
-print(str(time))
-clock.sleep(0.1)
-time =str(datetime.datetime.now()).split('.')[0]
-print(str(time))
+#
+# a='98343*****peterdfds**'
+# print(a[0:10].strip('*'))
+# print(a[10:].strip('*'))
+#
+#
+# time =str(datetime.datetime.now()).split('.')[0]
+# print(str(time))
+# clock.sleep(0.1)
+# time =str(datetime.datetime.now()).split('.')[0]
+# print(str(time))
 
 # img=io.imread('123.jpg')
 # plt.subplot(2,2,1)

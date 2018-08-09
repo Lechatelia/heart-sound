@@ -18,9 +18,10 @@ import os
 filt_dir='wav/'
 filt_store_dir='wav1/'
 Cutoff_hz = 1000.0
-Numtaps = 100
+Numtaps = 1000
 
 def filt_wav_store(dir,filename,filt_store_dirs):
+    print(filename)
     X, sample_rate = librosa.load(dir+filename)
     nyq_rate = sample_rate / 2.
     fir_coeff = firwin(Numtaps, Cutoff_hz / nyq_rate)
@@ -178,4 +179,5 @@ def print_values(label, values):
 
 if __name__=='__main__':
     # filter_wav_test('wav/normal__201105011626.wav')
-    filt_dir_all_wav(filt_dir,filt_store_dir)
+    # filt_dir_all_wav(filt_dir,filt_store_dir)
+    filter_wav_test('2018-08-09 13_39_27.wav')
