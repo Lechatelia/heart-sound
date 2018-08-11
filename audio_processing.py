@@ -11,25 +11,37 @@ import os
 import xlwt
 import csv
 from scipy.signal import lfilter, firwin,freqz
+from filter import is_real_wav
+import filter
 
 txt_name_for_chongfu='./chongfu1.txt'
 
 is_filter=True
 Cutoff_hz = 1000.0
 Numtaps = 10
+Cutoff_hz = [10.0,1000.0]
+# Cutoff_hz = 1000
+Numtaps = 499
+Sample_rate=16000
 
 def extract_feature(file_name,outfile=None):
-    min_data =44000
+    min_data =32000
 # try:
 #     print(file_name)
-    X, sample_rate = librosa.load(file_name)
+#     X, sample_rate = librosa.load(file_name)
 # except :
 
 # else:
+    if is_real_wav:
+        X, sample_rate = librosa.load(file_name,sr=Sample_rate)
+    else:
+        X=filter.wav_open(file_name)
+        sample_rate=Sample_rate
+
 
     # X, sample_rate1 = librosa.load(file_name, offset=8.1)
     if len(X) >= min_data:
-        offset = int(np.random.randint(0, high=len(X) - min_data)/2)
+        offset = int(np.random.randint(0, high=len(X) - min_data))
         X = X[offset:offset + min_data]
         if(outfile!=None):
             # print("!!!{file_name}".format(file_name=file_name))
@@ -37,7 +49,9 @@ def extract_feature(file_name,outfile=None):
      #是否滤波
     if is_filter:
         nyq_rate = sample_rate / 2.
-        fir_coeff = firwin(Numtaps, Cutoff_hz / nyq_rate)
+        band = [i / nyq_rate for i in Cutoff_hz]
+        fir_coeff = firwin(Numtaps, band, pass_zero=False)
+        # fir_coeff = firwin(Numtaps, Cutoff_hz / nyq_rate)
         X = lfilter(fir_coeff, 1.0, X)
     # else:
     #     pad = (int((min_data - len(X)) / 2), min_data - len(X) - int((min_data - len(X)) / 2))
@@ -275,8 +289,8 @@ def write_features_intxt_into_excel(dir):
 
 if __name__ == '__main__':
     # extract_feature('dataset/artifact__201012172012.wav')
-    dir=['extrastole/','murmur/','artifact/','normal/','extrahls/']
-    num=[6,2,8,1,16]
+    dir=['../dataset/extrastole/','../dataset/murmur/','../dataset/artifact/','../dataset/normal/','../dataset/extrahls/']
+    num=[13,4,13,2,28]
     # num=[1,1,1,1,1]
     for i in range(len(dir)):
         for j in range(num[i]):

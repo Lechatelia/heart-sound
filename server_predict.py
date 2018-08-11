@@ -9,8 +9,8 @@ import my_pridict
 from sever import Server
 import mysql
 
-test_ckpt_path="model0726/hs_model-95501.meta"
-ckpt_path="model0726/hs_model-95501"
+test_ckpt_path="model0726/hs_model-75001.meta"
+ckpt_path="model0726/hs_model-75001"
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 predict_wav_dir=[]

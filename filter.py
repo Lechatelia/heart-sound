@@ -7,18 +7,20 @@ import librosa.display
 import librosa.output
 import numpy as np
 import os
+import wave
 
-# import pywt
-# import numpy as np
-# import seaborn
-# from statsmodels.robust import mad
 
 #you should install ffmpeg packet
 
+is_real_wav=False
+# 如果是官方的真确wav则是true
+# 如果是自己的wav不能用库去读取，需要自己写的去读取，所以是false
 filt_dir='wav/'
 filt_store_dir='wav1/'
-Cutoff_hz = 1000.0
-Numtaps = 1000
+Cutoff_hz = [10.0,1000.0]
+# Cutoff_hz = 1000
+Numtaps = 499
+Sample_rate=16000
 
 def filt_wav_store(dir,filename,filt_store_dirs):
     print(filename)
@@ -35,20 +37,77 @@ def filt_dir_all_wav(dir,filt_store_dir):
         filt_wav_store(dir,file,filt_store_dir)
 
 
+def wav_open(filename):
+    # -*- coding: utf-8 -*-
+    import wave
+    import numpy
+    import pylab as pl
 
+    # 打开wav文件
+    # open返回一个的是一个Wave_read类的实例，通过调用它的方法读取WAV文件的格式和数据
+    f = wave.open(filename, "rb")
 
+    # 读取格式信息
+    # 一次性返回所有的WAV文件的格式信息，它返回的是一个组元(tuple)：声道数, 量化位数（byte单位）, 采
+    # 样频率, 采样点数, 压缩类型, 压缩类型的描述。wave模块只支持非压缩的数据，因此可以忽略最后两个信息
+    params = f.getparams()
+    nchannels, sampwidth, framerate, nframes = params[:4]
 
+    # 读取波形数据
+    # 读取声音数据，传递一个参数指定需要读取的长度（以取样点为单位）
+    str_data = f.readframes(nframes)
+    f.close()
+
+    # 将波形数据转换成数组
+    # 需要根据声道数和量化单位，将读取的二进制数据转换为一个可以计算的数组
+    wave_data = numpy.fromstring(str_data, dtype=numpy.uint8)/255
+
+    wave_data.shape = -1
+    # wave_data = wave_data.T
+    time = numpy.arange(0, nframes) * (1.0 / framerate)
+    # len_time = int(len(time) / 2)
+    # time = time[0:len_time]
+
+    ##print "time length = ",len(time)
+    ##print "wave_data[0] length = ",len(wave_data[0])
+
+    # 绘制波形
+
+    pl.subplot(211)
+    pl.plot(time, wave_data)
+    # pl.subplot(212)
+    # pl.plot(time, wave_data[1], c="r")
+    pl.xlabel("time")
+    pl.show()
+
+    return wave_data
+
+def wav_save(file_name,wave_data):
+
+    f = wave.open(file_name, "wb")
+    # set wav params
+    f.setnchannels(1)
+    f.setsampwidth(1)
+    f.setframerate(Sample_rate)
+    # turn the data to string
+    f.writeframes(wave_data.tostring())
+    f.close()
 
 
 def filter_wav_test(filename):
-    X, sample_rate = librosa.load(filename)
-    nsamples=29
+    if is_real_wav:
+        X, sample_rate = librosa.load(filename,sr=Sample_rate)
+    else:
+        X=wav_open(filename)
+        sample_rate=Sample_rate
+    librosa.output.write_wav(filename.replace('.wav', 'save.wav'), X,Sample_rate,norm=False)
     nyq_rate = sample_rate / 2.
-    cutoff_hz = 1000.0
+    cutoff_hz = Cutoff_hz
     # Length of the filter (number of coefficients, i.e. the filter order + 1)
-    numtaps = 100
+    numtaps = Numtaps
     # Use firwin to create a lowpass FIR filter
-    fir_coeff = firwin(numtaps, cutoff_hz / nyq_rate)
+    band=[i/ nyq_rate for i  in cutoff_hz ]
+    fir_coeff = firwin(numtaps, band,pass_zero=False)
 
     w, h = freqz(fir_coeff)
     plt.title('Digital filter frequency response')
@@ -61,14 +120,15 @@ def filter_wav_test(filename):
     plt.xlim(0, 2000)
     plt.show()
 
-    # Use lfilter to filter the signal with the FIR filter
-    filtered_X = lfilter(fir_coeff, 1.0, X)
-    librosa.output.write_wav(filename.replace('.wav','filt.wav'),filtered_X,sample_rate,norm=True)
 
-    D = librosa.stft(X)
+    filtered_X = lfilter(fir_coeff, 1.0, X)
+
+    librosa.output.write_wav(filename.replace('.wav','filt.wav'),filtered_X,sr=sample_rate,norm=True)
+
+    D = librosa.stft(X.astype(np.float))
     D1 = librosa.stft(filtered_X)
     # Use left-aligned frames, instead of centered frames
-    D_left = librosa.stft(X, center=False)
+    D_left = librosa.stft(X.astype(np.float), center=False)
     # Use a shorter hop length
     D_short = librosa.stft(filtered_X, hop_length=64)
     # Display a spectrogram
@@ -132,7 +192,7 @@ def filter_test():
 
     figure(1)
     # Plot the original signal
-    plot(t, signal)
+    plot(t, signal,'b')
 
     # Plot the filtered signal, shifted to compensate for the phase delay
     plot(t - delay, filtered_signal, 'r-')
@@ -142,7 +202,10 @@ def filter_test():
     plot(t[warmup:] - delay, filtered_signal[warmup:], 'g', linewidth=4)
 
     grid(True)
-
+    figure(2)
+    plot(t[warmup:] - delay, filtered_signal[warmup:], 'g', linewidth=4)
+    # figure(3)
+    plot(t , filtered_signal, 'r-')
     show()
 
     print_values('signal', signal)
@@ -180,4 +243,8 @@ def print_values(label, values):
 if __name__=='__main__':
     # filter_wav_test('wav/normal__201105011626.wav')
     # filt_dir_all_wav(filt_dir,filt_store_dir)
-    filter_wav_test('2018-08-09 13_39_27.wav')
+    # X = wav_open('2018-08-11 11_16_19.wav')
+    # print(librosa.util.normalize([-4.0,0.0 , 1.0]))
+    filter_wav_test('2018-08-11 21_35_29.wav')
+    # filter_wav_test('normal__117_1306262456650_B.wav')
+    # wav_open('2018-08-11 11_16_19.wav')s

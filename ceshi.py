@@ -9,10 +9,15 @@ from skimage import io
 import matplotlib.pyplot as plt
 import time as clock
 import datetime
-out_file = open('./chongfu.txt', 'a+')
-out_file.write("jsoasladasass\n")
+import librosa
+# out_file = open('./chongfu.txt', 'a+')
+# out_file.write("jsoasladasass\n")
 
-print(str(32%4))
+# a=[32 ,8]
+# b=[i/2 for i in a ]
+# print(b)
+# print(str(32%4))
+print(librosa.util.normalize([1.,2.,3.]))
 #
 # with open('test.wav', 'wb') as f:
 #     for i in range(100):

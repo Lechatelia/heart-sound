@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c83626-68f6-4d14-a006-17b0b58ba680" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_28_30.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_42_04.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_43_05.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_44_11.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_45_35.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-04 21_51_17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio_processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ceshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ceshi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chongfu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chongfu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chongfu1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chongfu1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__134_1306428161797_C1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__138_1306762146980_B.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__140_1306519735121_D.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__151_1306779785624_B.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/extrastole__249_1309202052376_C.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/murmur__201101051114.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wav/normal__201105011627.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write.csv" beforeDir="false" afterPath="$PROJECT_DIR$/write.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/write.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +20,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/heart_sounds$client.coverage" NAME="client Coverage Results" MODIFIED="1533392305642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1533785272244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$filter.coverage" NAME="filter Coverage Results" MODIFIED="1533793222403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$audio_processing.coverage" NAME="audio_processing Coverage Results" MODIFIED="1532512499416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1533970292320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$filter.coverage" NAME="filter Coverage Results" MODIFIED="1533994642729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$audio_processing.coverage" NAME="audio_processing Coverage Results" MODIFIED="1533990942943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sound$filter.coverage" NAME="filter Coverage Results" MODIFIED="1532194143934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1533787653501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1533996982914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$multi_threading.coverage" NAME="multi_threading Coverage Results" MODIFIED="1533374564834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1533390092002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$sever.coverage" NAME="sever Coverage Results" MODIFIED="1533707682414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -44,90 +34,122 @@
     <SUITE FILE_PATH="coverage/heart_sounds$librosa_core_stft_1.coverage" NAME="librosa-core-stft-1 Coverage Results" MODIFIED="1532182234647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$my_pridict.coverage" NAME="my_pridict Coverage Results" MODIFIED="1532365734197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1531738101063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$my_train.coverage" NAME="my_train Coverage Results" MODIFIED="1532592917750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$my_train.coverage" NAME="my_train Coverage Results" MODIFIED="1533992172203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sound$audio.coverage" NAME="audio Coverage Results" MODIFIED="1532192140253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Anaconda3/envs/tf/Lib/site-packages/librosa/core" />
+    <SUITE FILE_PATH="coverage/heart_sounds$filter__1_.coverage" NAME="filter (1) Coverage Results" MODIFIED="1533989514910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/Codes/heart_sounds" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnist_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mnist_inference.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mnist_inference.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="librosa-core-stft-1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ceshi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="116" column="25" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="182" column="46" lean-forward="true" selection-start-line="182" selection-start-column="46" selection-end-line="182" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_socket.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/_socket.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="785" column="8" selection-start-line="785" selection-start-column="8" selection-end-line="785" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sever.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sever.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="117" column="64" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/filter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3060">
+                  <caret line="246" column="52" selection-start-line="246" selection-start-column="52" selection-end-line="246" selection-end-column="52" />
+                  <folding>
+                    <element signature="e#0#33#0" expanded="true" />
+                    <element signature="e#4439#6523#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="my_train.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/my_train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="398">
+                  <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mnist_inference.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnist_inference.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/server_predict.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="audio_processing.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/audio_processing.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="341">
+                  <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#24#61#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="spectrum.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/spectrum.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="94">
+                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
+            <entry file="file:///usr/Codes/heart_sounds/filter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="65" selection-start-line="65" selection-end-line="65" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rename.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/rename.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="librosa-core-stft-1.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ceshi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="407">
+                  <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/server_predict.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,8 +173,6 @@
         <option value="$PROJECT_DIR$/librosa-core-stft-1.py" />
         <option value="$PROJECT_DIR$/my_dataset.py" />
         <option value="$PROJECT_DIR$/my_inference.py" />
-        <option value="$PROJECT_DIR$/rename.py" />
-        <option value="$PROJECT_DIR$/audio_processing.py" />
         <option value="$PROJECT_DIR$/my_train.py" />
         <option value="$PROJECT_DIR$/my_pridict.py" />
         <option value="$PROJECT_DIR$/multi_threading.py" />
@@ -160,6 +180,9 @@
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/sever.py" />
         <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/rename.py" />
+        <option value="/usr/Codes/heart_sounds/filter.py" />
+        <option value="$PROJECT_DIR$/audio_processing.py" />
         <option value="$PROJECT_DIR$/server_predict.py" />
         <option value="$PROJECT_DIR$/filter.py" />
       </list>
@@ -174,11 +197,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="531" />
-    <option name="y" value="46" />
-    <option name="width" value="1328" />
-    <option name="height" value="837" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="928" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -218,8 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.filter">
-    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.server_predict">
+    <configuration name="audio_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,13 +255,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/audio_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="filter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +269,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="/usr/Codes/heart_sounds" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
+      <option name="SCRIPT_NAME" value="/usr/Codes/heart_sounds/filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,6 +299,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="my_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="5. MNIST最佳实践" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="server_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,39 +337,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sever" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="5. MNIST最佳实践" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sever.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.client" />
-      <item itemvalue="Python.ceshi" />
-      <item itemvalue="Python.sever" />
-      <item itemvalue="Python.server_predict" />
       <item itemvalue="Python.filter" />
+      <item itemvalue="Python.audio_processing" />
+      <item itemvalue="Python.filter (1)" />
+      <item itemvalue="Python.my_train" />
+      <item itemvalue="Python.server_predict" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.filter" />
         <item itemvalue="Python.server_predict" />
-        <item itemvalue="Python.ceshi" />
-        <item itemvalue="Python.sever" />
-        <item itemvalue="Python.client" />
+        <item itemvalue="Python.filter" />
+        <item itemvalue="Python.my_train" />
+        <item itemvalue="Python.audio_processing" />
+        <item itemvalue="Python.filter (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -345,19 +368,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="928" height="1056" extended-state="4" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501382" side_tool="true" weight="0.4375" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.33512932" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.34555554" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3288889" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2443339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46145123" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.34438917" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.53854877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3760776" />
@@ -404,6 +427,16 @@
           <line>234</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/filter.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/filter.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -415,7 +448,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -424,20 +457,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda3/envs/tensorflow-gpu/Lib/site-packages/tensorflow/python/ops/init_ops.py" />
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tf/Lib/site-packages/librosa/feature/spectral.py" />
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tf/Lib/site-packages/librosa/feature/rhythm.py" />
-    <entry file="file://$PROJECT_DIR$/write.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/scipy/signal/signaltools.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/display.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/util/files.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/spectrum.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/matplotlib/pyplot.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/scipy/signal/fir_filter_design.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/scipy/signal/filter_design.py" />
-    <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/librosa/output.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/librosa/core/audio.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/audioread/__init__.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/scipy/signal/fir_filter_design.py" />
@@ -446,24 +465,10 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/151968692/builtins.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/tensorflow/python/training/learning_rate_decay.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1129">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/tensorflow/python/ops/gen_control_flow_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7973">
           <caret line="486" column="4" selection-start-line="486" selection-start-column="4" selection-end-line="486" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4709">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
         </state>
       </provider>
     </entry>
@@ -476,13 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13787">
-          <caret line="811" selection-start-line="811" selection-end-line="811" />
         </state>
       </provider>
     </entry>
@@ -520,13 +518,6 @@
     <entry file="file://$PROJECT_DIR$/pre_pro.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rename.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/time.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1332" />
@@ -553,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multi_threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -574,19 +558,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_inference.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server_pre.sh">
@@ -605,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/_socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -619,24 +588,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/audioread/__init__.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/scipy/signal/fir_filter_design.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-4445">
+          <caret line="261" column="4" selection-start-line="261" selection-start-column="4" selection-end-line="261" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server_predict.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/scipy/signal/signaltools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="116" column="25" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        <state relative-caret-position="94">
+          <caret line="1169" column="4" selection-start-line="1169" selection-start-column="4" selection-end-line="1169" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/wave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="405" selection-start-line="405" selection-end-line="405" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1526" selection-start-line="1526" selection-end-line="1526" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1854" selection-start-line="1854" selection-end-line="1854" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="3357" selection-start-line="3357" selection-end-line="3357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3242">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/audioread/rawread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#724#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/audioread/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/util/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="552" column="4" selection-start-line="552" selection-start-column="4" selection-end-line="552" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/Codes/heart_sounds/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/spectrum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_inference.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="182" column="46" lean-forward="true" selection-start-line="182" selection-start-column="46" selection-end-line="182" selection-end-column="46" />
+        <state relative-caret-position="3060">
+          <caret line="246" column="52" selection-start-line="246" selection-start-column="52" selection-end-line="246" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#4439#6523#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
         </state>
       </provider>
     </entry>
