@@ -289,8 +289,8 @@ def write_features_intxt_into_excel(dir):
 
 if __name__ == '__main__':
     # extract_feature('dataset/artifact__201012172012.wav')
-    dir=['../dataset/extrastole/','../dataset/murmur/','../dataset/artifact/','../dataset/normal/','../dataset/extrahls/']
-    num=[13,4,13,2,28]
+    dir=['../dataset2/extrastole/','../dataset2/murmur/','../dataset2/artifact/','../dataset2/normal/','../dataset2/extrahls/']
+    num=[13,4,13,3,28]
     # num=[1,1,1,1,1]
     for i in range(len(dir)):
         for j in range(num[i]):

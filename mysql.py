@@ -224,14 +224,14 @@ class Mysql():
         cursor = self.db.cursor()
 
         # SQL 查询语句
-        sql = "SELECT * FROM CONCLUSION WHERE USE_ID = '%s'" % (ID)
+        sql = "SELECT * FROM CONCLUSION WHERE USE_ID = '%s' ORDER by DATETIME DESC limit 10 "  % (ID)
         try:
             # 执行SQL语句
             cursor.execute(sql)
             # 获取所有记录列表
             results = cursor.fetchall()
-            if (len(results)>10):
-                results=results[-10:]
+            # if (len(results)>10):
+            #     results=results[-10:]
             return  results
         except:
             print("Error: unable to fetch data")
@@ -377,15 +377,15 @@ def SQL_test():
 if __name__=='__main__':
     # Add_info_to_SQL(1234888821,'Peter','1972-01-02',0,13785266548)
     # Add_Diagnosis_to_SQL(123456521, 'murmur', 0.8558, wav_dir='{name}.wav'.format(name=str(str(datetime.datetime.now()).split('.')[0])))
+    #
+    # print(Acquire_Info_by_ID(1234567890))
+    # a = get_all_info()
+    # print(a)
 
-    print(Acquire_Info_by_ID(1234567890))
-    a = get_all_info()
-    print(a)
-
-    print(get_diagnosis_by_id(123456521))
+    print(get_diagnosis_by_id(1234567890))
     # Add_info_to_SQL_no_id()
 
-    SQL_test()
+    # SQL_test()
 
 
 

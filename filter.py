@@ -45,6 +45,7 @@ def wav_open(filename):
 
     # 打开wav文件
     # open返回一个的是一个Wave_read类的实例，通过调用它的方法读取WAV文件的格式和数据
+
     f = wave.open(filename, "rb")
 
     # 读取格式信息
@@ -63,22 +64,22 @@ def wav_open(filename):
     wave_data = numpy.fromstring(str_data, dtype=numpy.uint8)/255
 
     wave_data.shape = -1
-    # wave_data = wave_data.T
-    time = numpy.arange(0, nframes) * (1.0 / framerate)
-    # len_time = int(len(time) / 2)
-    # time = time[0:len_time]
-
-    ##print "time length = ",len(time)
-    ##print "wave_data[0] length = ",len(wave_data[0])
-
-    # 绘制波形
-
-    pl.subplot(211)
-    pl.plot(time, wave_data)
-    # pl.subplot(212)
-    # pl.plot(time, wave_data[1], c="r")
-    pl.xlabel("time")
-    pl.show()
+    # # wave_data = wave_data.T
+    # time = numpy.arange(0, nframes) * (1.0 / framerate)
+    # # len_time = int(len(time) / 2)
+    # # time = time[0:len_time]
+    #
+    # ##print "time length = ",len(time)
+    # ##print "wave_data[0] length = ",len(wave_data[0])
+    #
+    # # 绘制波形
+    #
+    # pl.subplot(211)
+    # pl.plot(time, wave_data)
+    # # pl.subplot(212)
+    # # pl.plot(time, wave_data[1], c="r")
+    # pl.xlabel("time")
+    # pl.show()
 
     return wave_data
 
@@ -246,5 +247,6 @@ if __name__=='__main__':
     # X = wav_open('2018-08-11 11_16_19.wav')
     # print(librosa.util.normalize([-4.0,0.0 , 1.0]))
     filter_wav_test('2018-08-11 21_35_29.wav')
-    # filter_wav_test('normal__117_1306262456650_B.wav')
+    filter_wav_test('normal_0112filt.wav')
     # wav_open('2018-08-11 11_16_19.wav')s
+    filter_wav_test('/home/lechatelia/Desktop/Codes/dataset2/filt/extrastole/extrastole_0001filt.wav')
