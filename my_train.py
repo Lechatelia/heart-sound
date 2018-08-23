@@ -14,7 +14,7 @@ wav_dir='dataset/'
 
 
 BATCH_SIZE = 400
-My_keep_prob=0.8
+My_keep_prob=0.6
 LEARNING_RATE_BASE = 0.2
 LEARNING_RATE_DECAY = 0.99
 REGULARIZATION_RATE = 0.0001
@@ -96,6 +96,16 @@ def load_data():
         else:
             testdata.append(np.reshape(np.array(linedata), (input_number)))
             testlabel.append(vectorized_result(catedata))
+        # if (i<=sheet.nrows-100):
+        #     traindata.append((np.reshape(np.array(linedata), (input_number))))
+        #     trainlabel.append(vectorized_result(catedata))
+        #     if (np.random.rand(1) < 0.15):
+        #         valdata.append(np.reshape(np.array(linedata), (input_number)))
+        #         vallabel.append(vectorized_result(catedata))
+        # else:
+        #     print(str(rows[0]))
+        #     testdata.append(np.reshape(np.array(linedata), (input_number)))
+        #     testlabel.append(vectorized_result(catedata))
     traindata=np.array(traindata)
     trainlabel=np.array(trainlabel)
     valdata=np.array(valdata)

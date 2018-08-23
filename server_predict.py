@@ -9,8 +9,9 @@ import my_pridict
 from sever import Server
 import mysql
 
-test_ckpt_path="model0726/hs_model-81001.meta"
-ckpt_path="model0726/hs_model-81001"
+test_ckpt_path="model0726/hs_model-33001.meta"
+ckpt_path="model0726/hs_model-33001"
+
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 predict_wav_dir=[]
@@ -71,7 +72,7 @@ class Server():
             while (length < Length):
                 # data = self.sock.recv(5000)  # 接受其数据
 
-                self.s.settimeout(2)
+                # self.s.settimeout(2)
                 try:
                     data = self.sock.recv(1024)  # 接受其数据
                 except socket.timeout:
@@ -155,6 +156,7 @@ class Server():
                         else:
                             possibility=max(pre_pro)
                         result='result{0}{1:*<4}'.format(str(pre_pro.index(max(pre_pro))+1),str(possibility*10000).split('.')[0])
+                        print(result)
                         try:
                             self.sock.send(result.encode())
                         except OSError:

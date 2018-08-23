@@ -3,44 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="71c83626-68f6-4d14-a006-17b0b58ba680" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_40_33.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_40_33filt.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_44_02.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_44_02filt.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_48_22.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 10_48_22filt.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 11_15_50.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 11_16_19.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 11_16_19filt.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 11_16_19save.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_23_21.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_25_08.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_27_34.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_29_47.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_32_03.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_32_57.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_33_43.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_35_29.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_35_29filt.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_35_29save.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_44_55.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_46_53.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_52_24.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_55_17.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 21_58_34.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 22_03_44.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 22_06_17.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-08-11 22_17_08.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/audio_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/audio_processing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chongfu1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chongfu1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-75001.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-75001.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-75001.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-95501.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-95501.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0726/hs_model-95501.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_pridict.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_pridict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal_0112filt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal__117_1306262456650_B.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal__117_1306262456650_Bfilt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/normal__117_1306262456650_Bsave.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_pro1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pre_pro1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_predict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/write.csv" beforeDir="false" afterPath="$PROJECT_DIR$/write.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/write.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/write.xlsx" afterDir="false" />
@@ -56,20 +28,20 @@
     <SUITE FILE_PATH="coverage/heart_sounds$client.coverage" NAME="client Coverage Results" MODIFIED="1533392305642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1533970292320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$filter.coverage" NAME="filter Coverage Results" MODIFIED="1534083623794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$audio_processing.coverage" NAME="audio_processing Coverage Results" MODIFIED="1534084221792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$audio_processing.coverage" NAME="audio_processing Coverage Results" MODIFIED="1535059287019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sound$filter.coverage" NAME="filter Coverage Results" MODIFIED="1532194143934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1533996982914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$wave.coverage" NAME="wave Coverage Results" MODIFIED="1534082570526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/envs/tf/lib/python3.6" />
+    <SUITE FILE_PATH="coverage/heart_sounds$server_predict.coverage" NAME="server_predict Coverage Results" MODIFIED="1535059981947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$multi_threading.coverage" NAME="multi_threading Coverage Results" MODIFIED="1533374564834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1534059671890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$sever.coverage" NAME="sever Coverage Results" MODIFIED="1533707682414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$sever.coverage" NAME="sever Coverage Results" MODIFIED="1534950062772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/5__MNIST$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1530689928384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$rename.coverage" NAME="rename Coverage Results" MODIFIED="1532485972603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$my_inference.coverage" NAME="my_inference Coverage Results" MODIFIED="1531727358170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$librosa_core_stft_1.coverage" NAME="librosa-core-stft-1 Coverage Results" MODIFIED="1532182234647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$my_pridict.coverage" NAME="my_pridict Coverage Results" MODIFIED="1532365734197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$my_pridict.coverage" NAME="my_pridict Coverage Results" MODIFIED="1535058127937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sounds$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1531738101063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/heart_sounds$my_train.coverage" NAME="my_train Coverage Results" MODIFIED="1534085072360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/heart_sounds$my_train.coverage" NAME="my_train Coverage Results" MODIFIED="1535059621258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/heart_sound$audio.coverage" NAME="audio Coverage Results" MODIFIED="1532192140253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Anaconda3/envs/tf/Lib/site-packages/librosa/core" />
     <SUITE FILE_PATH="coverage/heart_sounds$filter__1_.coverage" NAME="filter (1) Coverage Results" MODIFIED="1534081895521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/Codes/heart_sounds" />
   </component>
@@ -78,8 +50,8 @@
       <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -90,8 +62,8 @@
       <file leaf-file-name="wave.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/wave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="259" selection-start-line="259" selection-end-line="259" />
+            <state relative-caret-position="323">
+              <caret line="500" column="25" selection-start-line="500" selection-start-column="25" selection-end-line="500" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -99,8 +71,29 @@
       <file leaf-file-name="my_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceshi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_pridict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_pridict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -108,8 +101,8 @@
       <file leaf-file-name="server_predict.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="68">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -117,8 +110,20 @@
       <file leaf-file-name="mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1967">
-              <caret line="234" column="27" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="27" />
+            <state relative-caret-position="4352">
+              <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sever.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sever.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +131,8 @@
       <file leaf-file-name="audio_processing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audio_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <state relative-caret-position="85">
+              <caret line="283" column="53" selection-start-line="283" selection-start-column="53" selection-end-line="283" selection-end-column="53" />
               <folding>
                 <element signature="e#24#61#0" expanded="true" />
               </folding>
@@ -135,36 +140,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/audio.py">
+      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/Codes/heart_sounds/filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spectrum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/spectrum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="librosa-core-stft-1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -180,6 +162,7 @@
     <findStrings>
       <find />
       <find>Return_dianosis_by_id</find>
+      <find>*</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,17 +175,17 @@
         <option value="$PROJECT_DIR$/librosa-core-stft-1.py" />
         <option value="$PROJECT_DIR$/my_dataset.py" />
         <option value="$PROJECT_DIR$/my_inference.py" />
-        <option value="$PROJECT_DIR$/my_train.py" />
-        <option value="$PROJECT_DIR$/my_pridict.py" />
         <option value="$PROJECT_DIR$/multi_threading.py" />
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/sever.py" />
         <option value="$PROJECT_DIR$/ceshi.py" />
         <option value="$PROJECT_DIR$/rename.py" />
         <option value="/usr/Codes/heart_sounds/filter.py" />
+        <option value="$PROJECT_DIR$/filter.py" />
         <option value="$PROJECT_DIR$/mysql.py" />
         <option value="$PROJECT_DIR$/audio_processing.py" />
-        <option value="$PROJECT_DIR$/filter.py" />
+        <option value="$PROJECT_DIR$/my_pridict.py" />
+        <option value="$PROJECT_DIR$/my_train.py" />
         <option value="$PROJECT_DIR$/server_predict.py" />
       </list>
     </option>
@@ -227,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,16 +223,20 @@
               <item name="heart_sounds" type="462c0819:PsiDirectoryNode" />
               <item name="model0726" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="heart_sounds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heart_sounds" type="462c0819:PsiDirectoryNode" />
+              <item name="wav1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dataset2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dataset3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -265,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.my_train">
+  <component name="RunManager" selected="Python.server_predict">
     <configuration name="audio_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,26 +273,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="filter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="5. MNIST最佳实践" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/usr/Codes/heart_sounds" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/usr/Codes/heart_sounds/filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_pridict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,7 +286,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_pridict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +311,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wave" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="server_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="5. MNIST最佳实践" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,31 +319,50 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3/envs/tf/lib/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda3/envs/tf/lib/python3.6/wave.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sever" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="5. MNIST最佳实践" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sever.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.filter" />
       <item itemvalue="Python.audio_processing" />
-      <item itemvalue="Python.filter (1)" />
-      <item itemvalue="Python.wave" />
       <item itemvalue="Python.my_train" />
+      <item itemvalue="Python.server_predict" />
+      <item itemvalue="Python.sever" />
+      <item itemvalue="Python.my_pridict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server_predict" />
         <item itemvalue="Python.my_train" />
         <item itemvalue="Python.audio_processing" />
-        <item itemvalue="Python.filter" />
-        <item itemvalue="Python.wave" />
-        <item itemvalue="Python.filter (1)" />
+        <item itemvalue="Python.my_pridict" />
+        <item itemvalue="Python.sever" />
       </list>
     </recent_temporary>
   </component>
@@ -396,16 +384,16 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501382" side_tool="true" weight="0.4375" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50193477" side_tool="true" weight="0.39439654" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3297414" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.30495688" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49806523" visible="true" weight="0.39439654" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3288889" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23770039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24046434" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.14648977" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.16141514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3760776" />
@@ -429,27 +417,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>370</line>
+          <line>380</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>234</line>
+          <line>238</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>261</line>
+          <line>267</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mysql.py</url>
-          <line>346</line>
+          <line>356</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///usr/Codes/heart_sounds/mysql.py</url>
-          <line>234</line>
+          <line>238</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -464,12 +452,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///usr/Codes/heart_sounds/filter.py</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file:///usr/Codes/heart_sounds/filter.py</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
@@ -492,7 +480,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/librosa/core/audio.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/audioread/__init__.py" />
     <entry file="file://D:/Anaconda3/envs/tf/Lib/site-packages/scipy/signal/fir_filter_design.py" />
     <entry file="file://$PROJECT_DIR$/chongfu.txt">
@@ -563,24 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_pridict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multi_threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -596,13 +569,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="117" column="64" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="64" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/_socket.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rename.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -709,13 +665,6 @@
     <entry file="file://$PROJECT_DIR$/librosa-core-stft-1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1967">
-          <caret line="234" column="27" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/spectrum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -725,56 +674,104 @@
     </entry>
     <entry file="file:///usr/Codes/heart_sounds/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/wave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        <state relative-caret-position="765">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/site-packages/librosa/core/audio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="289">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audio_processing.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1397097482/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="79951">
+          <caret line="4703" column="34" selection-start-line="4703" selection-start-column="31" selection-end-line="4703" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4352">
+          <caret line="257" column="30" selection-start-line="257" selection-start-column="30" selection-end-line="257" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="163" column="27" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
           <folding>
-            <element signature="e#24#61#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf/lib/python3.6/wave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="500" column="25" selection-start-line="500" selection-start-column="25" selection-end-line="500" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_pridict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="283" column="53" selection-start-line="283" selection-start-column="53" selection-end-line="283" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="153">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="68">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

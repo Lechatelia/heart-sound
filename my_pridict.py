@@ -5,8 +5,8 @@ import my_train
 import numpy as np
 import os
 
-test_ckpt_path="model0726/hs_model-95501.meta"
-ckpt_path="model0726/hs_model-95501"
+test_ckpt_path="model0726/hs_model-26001.meta"
+ckpt_path="model0726/hs_model-26001"
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 
@@ -89,9 +89,9 @@ if __name__=='__main__':
         print('Model restored from: '+test_ckpt_path)
 
         #预测文件夹
-        dir = ['murmur/', 'artifact/', 'normal/', 'extrahls/', 'extrastole/']
+        dir = ['../dataset3/extrastole/','../dataset3/murmur/','../dataset3/artifact/','../dataset3/normal/','../dataset3/extrahls/']
         for i in range(len(dir)):
-            predict_wav_indir(sess,dir[i],first=(i==1))
+            predict_wav_indir(sess,dir[i],first=(i==0))
         # 具体某一病例#具体某一病例
         # predict_wav_list(sess,
         #                  [

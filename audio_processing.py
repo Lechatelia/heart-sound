@@ -18,7 +18,6 @@ txt_name_for_chongfu='./chongfu1.txt'
 
 is_filter=True
 Cutoff_hz = 1000.0
-Numtaps = 10
 Cutoff_hz = [10.0,1000.0]
 # Cutoff_hz = 1000
 Numtaps = 499
@@ -40,12 +39,12 @@ def extract_feature(file_name,outfile=None):
 
 
     # X, sample_rate1 = librosa.load(file_name, offset=8.1)
-    if len(X) >= min_data:
-        offset = int(np.random.randint(0, high=len(X) - min_data))
-        X = X[offset:offset + min_data]
-        if(outfile!=None):
-            # print("!!!{file_name}".format(file_name=file_name))
-            outfile.write(file_name+'\n')
+    # if len(X) >= min_data:
+    #     offset = int(np.random.randint(0, high=len(X) - min_data))
+    #     X = X[offset:offset + min_data]
+    #     if(outfile!=None):
+    #         # print("!!!{file_name}".format(file_name=file_name))
+    #         outfile.write(file_name+'\n')
      #是否滤波
     if is_filter:
         nyq_rate = sample_rate / 2.
@@ -289,8 +288,9 @@ def write_features_intxt_into_excel(dir):
 
 if __name__ == '__main__':
     # extract_feature('dataset/artifact__201012172012.wav')
-    dir=['../dataset2/extrastole/','../dataset2/murmur/','../dataset2/artifact/','../dataset2/normal/','../dataset2/extrahls/']
-    num=[13,4,13,3,28]
+    dir=['../dataset3/extrastole/','../dataset3/murmur/','../dataset3/artifact/','../dataset3/normal/','../dataset3/extrahls/']
+    # num=[13,4,13,3,28]
+    num=[1,1,1,1,1]
     # num=[1,1,1,1,1]
     for i in range(len(dir)):
         for j in range(num[i]):

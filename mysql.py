@@ -1,23 +1,26 @@
-#coding:utf-8
+# coding:utf-8
 import pymysql
 import datetime
-table_name='USE_INF'
-cols={'username':'USE_NAME','user_age':'USE_AGE','user_sex':'USE_SEX','user_birthdar':'USE_BIR'}
 
-Server=["127.0.0.1", "root", "970327", "renesas"]
+table_name = 'USE_INF'
+cols = {'username': 'USE_NAME', 'user_age': 'USE_AGE', 'user_sex': 'USE_SEX', 'user_birthdar': 'USE_BIR'}
+
+Server = ["127.0.0.1", "root", "970327", "renesas"]
+
+
 # Server=["132.232.3.244", "root", "970327", "renesa"]
 
-#注意
+# 注意
 # "VALUES ('%s',  %d ,%d ,%d)" \
 #     '%s'引号是必须的，不然认不出来是字符
 
 class Mysql():
     def __init__(self):
-        self.table=table_name
-        self.col=cols
+        self.table = table_name
+        self.col = cols
 
-    def connect(self,ip,users,password,sqlname):
-        self.db= pymysql.connect(ip,users,password,sqlname)
+    def connect(self, ip, users, password, sqlname):
+        self.db = pymysql.connect(ip, users, password, sqlname)
 
     def show_version(self):
         # 使用 cursor() 方法创建一个游标对象 cursor
@@ -42,8 +45,8 @@ class Mysql():
             print("--------------------------------------------------")
             for row in results:
                 print("|%d\t\t%s\t\t|%s\t\t|%d\t\t|%d\t\t|" % \
-                      (row[0], row[1], row[2], row[3],row[4]))
-                      # (row[0], row[1], row[2].strftime("%Y-%m-%d"), row[3],row[4]))
+                      (row[0], row[1], row[2], row[3], row[4]))
+                # (row[0], row[1], row[2].strftime("%Y-%m-%d"), row[3],row[4]))
             print("--------------------------------------------------")
         except:
             print("Error: unable to fetch data")
@@ -51,7 +54,7 @@ class Mysql():
     def Get_all_user_info_return_str(self):
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
-        info_list=[]
+        info_list = []
         # SQL 查询语句
         sql = "SELECT * FROM USE_INFMATION  "
         try:
@@ -79,21 +82,20 @@ class Mysql():
             print("--------------------------------------------------")
             for row in results:
                 print("|%d\t\t|%s\t\t|%5f\t\t|%s\t\t\t|%s\t\t|" % \
-                      (row[0], row[1], row[2], row[3],row[4]))
+                      (row[0], row[1], row[2], row[3], row[4]))
             print("--------------------------------------------------")
         except:
             print("Error: unable to fetch data")
 
-
-    def Insert_info_old(self,info):
+    def Insert_info_old(self, info):
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
         # SQL 插入语句
         sql = "INSERT INTO " \
               "USE_INF(USE_NAME,USE_AGE, USE_SEX,USE_BIR) " \
               "VALUES ('%s',  %d ,%d ,%d)" \
-              %((info[0]),info[1],info[2],info[3])
-            # .format(name=info[0], age=info[1],sex=info[2],birthday=info[3])
+              % ((info[0]), info[1], info[2], info[3])
+        # .format(name=info[0], age=info[1],sex=info[2],birthday=info[3])
         # sql='INSERT INTO USE_INF(USE_NAME,USE_AGE, USE_SEX,USE_BIR) VALUES ("boy",  20 ,1 ,19970345)'
         try:
             # 执行sql语句
@@ -104,13 +106,14 @@ class Mysql():
             # 如果发生错误则回滚
             self.db.rollback()
 
-    def Insert_User_Info(self,info):
+    def Insert_User_Info(self, info):
         # [1234567890,'boy1', '1997-03-27' ,1 ,13772052853]
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
         # SQL 插入语句
 
-        sql="INSERT INTO USE_INFMATION (USE_ID,USE_NAME,USE_BRI, USE_SEX,USE_TEL) VALUES (%d,'%s', '%s' ,%d,%d)"%(info[0],info[1],info[2],info[3],info[4])
+        sql = "INSERT INTO USE_INFMATION (USE_ID,USE_NAME,USE_BRI, USE_SEX,USE_TEL) VALUES (%d,'%s', '%s' ,%d,%d)" % (
+        info[0], info[1], info[2], info[3], info[4])
         # sql="INSERT INTO USE_INFMATION (USE_ID,USE_NAME,USE_BRI,USE_SEX,USE_TEL)  VALUES (1567890,'abc',1,13772052853)"
         # sql="""INSERT INTO USE_INFMATION VALUES ('123456789','abc', '1997-03-27','1' ,'13772051234')"""
         try:
@@ -122,13 +125,14 @@ class Mysql():
             # 如果发生错误则回滚
             self.db.rollback()
 
-    def Insert_Diagnosis(self,info):
-        #[1234567890,"normal",0.998,'normal.wav']
+    def Insert_Diagnosis(self, info):
+        # [1234567890,"normal",0.998,'normal.wav']
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
         # SQL 插入语句
 
-        sql="INSERT INTO CONCLUSION (USE_ID,RESULT,POSSIBLITY, DATETIME,WAV_INF) VALUES (%d,'%s','%f',NOW(),'%s')"%(info[0],info[1],info[2],info[3])
+        sql = "INSERT INTO CONCLUSION (USE_ID,RESULT,POSSIBLITY, DATETIME,WAV_INF) VALUES (%d,'%s','%f',NOW(),'%s')" % (
+        info[0], info[1], info[2], info[3])
         try:
             # 执行sql语句Error: unable to fetch data
             cursor.execute(sql)
@@ -138,49 +142,49 @@ class Mysql():
             # 如果发生错误则回滚
             self.db.rollback()
 
-    def Delete_by_name_old(self,name):
+    def Delete_by_name_old(self, name):
         # SQL 删除语句
         cursor = self.db.cursor()
         sql = "DELETE FROM USE_INF WHERE USE_NAME = '%s'" % (name)
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
-           # 提交修改
-           self.db.commit()
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 提交修改
+            self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
+            # 发生错误时回滚
+            self.db.rollback()
+
     #
-    def Delete_Info_by_ID(self,ID):
+    def Delete_Info_by_ID(self, ID):
         # SQL 删除语句
         cursor = self.db.cursor()
         sql = "DELETE FROM USE_INFMATION WHERE USE_ID = '%s'" % (ID)
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
-           # 提交修改
-           self.db.commit()
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 提交修改
+            self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
+            # 发生错误时回滚
+            self.db.rollback()
 
-    def Return_Info_by_ID(self,ID):
+    def Return_Info_by_ID(self, ID):
         # SQL 删除语句
         cursor = self.db.cursor()
         sql = "SELECT *  FROM USE_INFMATION WHERE USE_ID = '%s'" % (ID)
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
+            # 执行SQL语句
+            cursor.execute(sql)
 
-           results = cursor.fetchall()
+            results = cursor.fetchall()
 
-           return  results
-           # 提交修改
-           # self.db.commit()
+            return results
+            # 提交修改
+            # self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
-
+            # 发生错误时回滚
+            self.db.rollback()
 
     def Return_all_ID_Name(self):
         # 使用cursor()方法获取操作游标
@@ -202,7 +206,7 @@ class Mysql():
     def Return_all_ID(self):
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
-        id_list=[]
+        id_list = []
         # SQL 查询语句
         sql = "SELECT USE_ID FROM USE_INFMATION "
         try:
@@ -217,14 +221,14 @@ class Mysql():
             print("Error: unable to fetch data")
 
     def Return_max_id(self):
-        return  max(self.Return_all_ID())
+        return max(self.Return_all_ID())
 
-    def Return_dianosis_by_id(self,ID):
+    def Return_dianosis_by_id(self, ID):
         # 使用cursor()方法获取操作游标
         cursor = self.db.cursor()
 
         # SQL 查询语句
-        sql = "SELECT * FROM CONCLUSION WHERE USE_ID = '%s' ORDER by DATETIME DESC limit 10 "  % (ID)
+        sql = "SELECT * FROM CONCLUSION WHERE USE_ID = '%s' ORDER by DATETIME DESC limit 10 " % (ID)
         try:
             # 执行SQL语句
             cursor.execute(sql)
@@ -232,98 +236,101 @@ class Mysql():
             results = cursor.fetchall()
             # if (len(results)>10):
             #     results=results[-10:]
-            return  results
+            return results
         except:
             print("Error: unable to fetch data")
 
-    def ID_Name_list_to_str(self,list_idname):
-        str_list=[]
+    def ID_Name_list_to_str(self, list_idname):
+        str_list = []
         for idname in list_idname:
-            str_list.append('{0[0]:*<10}{0[1]:*<20}'.format(idname))
+            #   str_list.append('{0[0]:*<10}{0[1]:*<20}'.format(idname))
+            str_list.append('{0[0]:\0<10}{0[1]:\0<20}'.format(idname))
         return str_list
 
-
-    def Info2str(self,infolist):
-        if len(infolist)==5:
-            return '{0[0]:*<10}{0[1]:*<20}{0[2]}{0[3]:*<1}{0[4]:*<11}'.format(infolist)
+    def Info2str(self, infolist):
+        if len(infolist) == 5:
+            # return '{0[0]:*<10}{0[1]:*<20}{0[2]}{0[3]:*<1}{0[4]:*<11}'.format(infolist)
+            return '{0[0]:\0<10}{0[1]:\0<20}{0[2]}{0[3]:\0<1}{0[4]:\0<11}'.format(infolist)
         else:
             print('info format error')
 
-    def Diagnosis2str(self,diaglist):
-        if len(diaglist)==5:
-            return '{0[0]:*<10}{0[1]:*<20}{0[2]:*<10}{0[3]}{0[4]:*<30}'.format(diaglist)
+    def Diagnosis2str(self, diaglist):
+        if len(diaglist) == 5:
+            # return '{0[0]:*<10}{0[1]:*<20}{0[2]:*<10}{0[3]}{0[4]:*<30}'.format(diaglist)
+            return '{0[0]:\0<10}{0[1]:\0<20}{0[2]:\0<10}{0[3]}{0[4]:\0<30}'.format(diaglist)
         else:
             print('diagnosis format error')
 
-    def Diagnosis_list_to_str(self,results):
-        str_list=[]
+    def Diagnosis_list_to_str(self, results):
+        str_list = []
         for row in results:
             str_list.append(self.Diagnosis2str(row))
         return str_list
 
-
-
-    def Delete_Diagnosis_by_ID(self,ID):
+    def Delete_Diagnosis_by_ID(self, ID):
         # SQL 删除语句
         cursor = self.db.cursor()
         sql = "DELETE FROM CONCLUSION WHERE USE_ID = '%s'" % (ID)
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
-           # 提交修改
-           self.db.commit()
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 提交修改
+            self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
+            # 发生错误时回滚
+            self.db.rollback()
 
-    def Update_birth_by_name(self,name,changr):
+    def Update_birth_by_name(self, name, changr):
         cursor = self.db.cursor()
-        sql=" UPDATE USE_INF SET USE_BIR='%d'   WHERE USE_NAME='%s' "%(changr,name)
+        sql = " UPDATE USE_INF SET USE_BIR='%d'   WHERE USE_NAME='%s' " % (changr, name)
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
-           # 提交修改
-           self.db.commit()
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 提交修改
+            self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
+            # 发生错误时回滚
+            self.db.rollback()
 
     def Add_ALTER(self):
         # 该函数需要自己更改
         cursor = self.db.cursor()
-        sql="ALTER TABLE USE_INF  ADD  USE_Time DATETIME()"
+        sql = "ALTER TABLE USE_INF  ADD  USE_Time DATETIME()"
         # sql="ALTER TABLE USE_INF  ALTER COLUMN  USE_BIR INT(8)"
         try:
-           # 执行SQL语句
-           cursor.execute(sql)
-           # 提交修改
-           self.db.commit()
+            # 执行SQL语句
+            cursor.execute(sql)
+            # 提交修改
+            self.db.commit()
         except:
-           # 发生错误时回滚
-           self.db.rollback()
+            # 发生错误时回滚
+            self.db.rollback()
 
     def close_sql(self):
         # 关闭数据库连接
         self.db.close()
 
-def Add_info_to_SQL(ID=1234567890,Name='XJTUer',Birthday='1997-03-27',sex=1,tel=13712345678):
-    mysql=Mysql()
+
+def Add_info_to_SQL(ID=1234567890, Name='XJTUer', Birthday='1997-03-27', sex=1, tel=13712345678):
+    mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
-    mysql.Insert_User_Info([ID,Name, Birthday ,sex ,tel])
+    mysql.Insert_User_Info([ID, Name, Birthday, sex, tel])
     mysql.close_sql()
 
 
-def Add_info_to_SQL_no_id(Name='XJTUer',Birthday='1997-03-27',sex=1,tel=13712345678):
-    mysql=Mysql()
+def Add_info_to_SQL_no_id(Name='XJTUer', Birthday='1997-03-27', sex=1, tel=13712345678):
+    mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
-    mysql.Insert_User_Info([mysql.Return_max_id()+1,Name, Birthday ,sex ,tel])
+    mysql.Insert_User_Info([mysql.Return_max_id() + 1, Name, Birthday, sex, tel])
     mysql.close_sql()
 
-def Add_Diagnosis_to_SQL(ID=1234567890,Result='normal',Possi=0.512345,wav_dir='./normal.wav'):
-    mysql=Mysql()
+
+def Add_Diagnosis_to_SQL(ID=1234567890, Result='normal', Possi=0.512345, wav_dir='./normal.wav'):
+    mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
-    mysql.Insert_Diagnosis([ID,Result,Possi,wav_dir])
+    mysql.Insert_Diagnosis([ID, Result, Possi, wav_dir])
     mysql.close_sql()
+
 
 def Acquire_Info_by_ID(id):
     mysql = Mysql()
@@ -331,32 +338,35 @@ def Acquire_Info_by_ID(id):
     info = mysql.Return_Info_by_ID(id)[0]
     return mysql.Info2str(info)
 
+
 def Update_all_name_id_by_str():
     mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.ID_Name_list_to_str(mysql.Return_all_ID_Name())
+
 
 def get_all_info():
     mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.Get_all_user_info_return_str()
 
+
 def get_diagnosis_by_id(id):
     mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
     return mysql.Diagnosis_list_to_str(mysql.Return_dianosis_by_id(id))
 
+
 def SQL_test():
-    time =str(datetime.datetime.now()).split('.')[0]
-    mysql=Mysql()
+    time = str(datetime.datetime.now()).split('.')[0]
+    mysql = Mysql()
     mysql.connect(Server[0], Server[1], Server[2], Server[3])
 
-
     mysql.Delete_Info_by_ID('1234567890')
-    mysql.Insert_User_Info([1234567890,'boy1', '1997-03-27', 1, 13772052853])
+    mysql.Insert_User_Info([1234567890, 'boy1', '1997-03-27', 1, 13772052853])
 
     mysql.Delete_Diagnosis_by_ID(123124312)
-    mysql.Insert_Diagnosis([123124312,"normal",0.57801119,'./normal.wav'])
+    mysql.Insert_Diagnosis([123124312, "normal", 0.57801119, './normal.wav'])
 
     # info=mysql.Return_Info_by_ID(1234567890)[0]
     # info=mysql.Info2str(info)
@@ -373,8 +383,7 @@ def SQL_test():
     mysql.close_sql()
 
 
-
-if __name__=='__main__':
+if __name__ == '__main__':
     # Add_info_to_SQL(1234888821,'Peter','1972-01-02',0,13785266548)
     # Add_Diagnosis_to_SQL(123456521, 'murmur', 0.8558, wav_dir='{name}.wav'.format(name=str(str(datetime.datetime.now()).split('.')[0])))
     #
@@ -386,6 +395,3 @@ if __name__=='__main__':
     # Add_info_to_SQL_no_id()
 
     # SQL_test()
-
-
-
