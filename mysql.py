@@ -365,7 +365,7 @@ def SQL_test():
     mysql.Delete_Info_by_ID('1234567890')
     mysql.Insert_User_Info([1234567890, 'boy1', '1997-03-27', 1, 13772052853])
 
-    mysql.Delete_Diagnosis_by_ID(123124312)
+    mysql.Delete_Diagnosis_by_ID(1234567890)
     mysql.Insert_Diagnosis([123124312, "normal", 0.57801119, './normal.wav'])
 
     # info=mysql.Return_Info_by_ID(1234567890)[0]
@@ -394,4 +394,4 @@ if __name__ == '__main__':
     print(get_diagnosis_by_id(1234567890))
     # Add_info_to_SQL_no_id()
 
-    # SQL_test()
+    SQL_test()

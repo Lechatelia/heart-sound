@@ -5,8 +5,8 @@ import my_train
 import numpy as np
 import os
 
-test_ckpt_path="model0726/hs_model-26001.meta"
-ckpt_path="model0726/hs_model-26001"
+test_ckpt_path="model0726/hs_model-52501.meta"
+ckpt_path="model0726/hs_model-52501"
 
 predictions_map=['normal','extrahls','artifact','extrastole','murmur']
 
